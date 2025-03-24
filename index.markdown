@@ -5,7 +5,7 @@
 layout: home
 ---
 
-Welcome to the **Aalto Machine Learning Research Group**, led by [Professor Alexander Jung](https://www.aalto.fi/en/people/alexander-jung). Our research focuses on machine learning models that ensure **human agency, oversight, and adherence to fundamental rights**. We work on topics including **federated learning, explainable AI, and fairness in machine learning**.
+Welcome to the **Aalto Machine Learning Research Group**, led by [Professor Alexander Jung](mailto:alex.jung@aalto.fi). Our research focuses on machine learning models that ensure **human agency, oversight, and adherence to fundamental rights**. We work on topics including **federated learning, explainable AI, and fairness in machine learning**.
 
 ## 🏛️ Research Areas
 - Federated Learning and Privacy-Preserving AI
@@ -16,17 +16,22 @@ Welcome to the **Aalto Machine Learning Research Group**, led by [Professor Alex
 ## 🔬 Team
 
 ### Faculty
-- **Professor:** [Alexander Jung](https://www.aalto.fi/en/people/alexander-jung)  
-  _Tenured Associate Professor, Aalto University_
+- **Professor:** [**Alexander Jung**](/alex_jung/) <br> 
+  Tenured Associate Professor, Aalto University
 
 ### Post-Doctoral Researchers
 - [**Homer Simpson**](/postdoc1/) <br>
   Research Focus: Nuclear Power Plants and donuts <br>
   Email: [To be updated]
 
-- **[Postdoc Name 2]**  
-  _Research Focus: [To be updated]_  
-  Email: [To be updated]
+- [**Konstantina Olioumtsevits**](/konstantina_olioumtsevits/) <br>
+  Research Focus: Making machine learning accessible and understandable <br>
+  Email: [konstantina.olioumtsevits@aalto.fi](mailto:konstantina.olioumtsevits@aalto.fi)
+
+- [**Ekkehard Schnoor**](/ekkehard_schnoor/) <br>
+  Research Focus: TBA <br>
+  Email: [schnoor@mathc.rwth-aachen.de](mailto:schnoor@mathc.rwth-aachen.de)
+
 
 ### PhD Students
 - **[PhD Student Name 1]**  
