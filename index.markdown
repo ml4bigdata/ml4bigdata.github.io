@@ -20,9 +20,6 @@ Welcome to the **Aalto Machine Learning Research Group**, led by [Professor Alex
   Tenured Associate Professor, Aalto University
 
 ### Post-Doctoral Researchers
-- [**Homer Simpson**](/postdoc1/) <br>
-  Research Focus: Nuclear Power Plants and donuts <br>
-  Email: [To be updated]
 
 - [**Konstantina Olioumtsevits**](/konstantina_olioumtsevits/) <br>
   Research Focus: Making machine learning accessible and understandable <br>
@@ -32,19 +29,63 @@ Welcome to the **Aalto Machine Learning Research Group**, led by [Professor Alex
   Research Focus: TBA <br>
   Email: [schnoor@mathc.rwth-aachen.de](mailto:schnoor@mathc.rwth-aachen.de)
 
+- **Shamsi Abdurakhmanova** <br>
+  Research Focus: Model-agnostic Federated Learning <br>
+  Email: [shamsiiat.abdurakhmanova@aalto.fi](mailto:shamsiiat.abdurakhmanova@aalto.fi)
 
 ### PhD Students
-- **[PhD Student Name 1]**  
-  _Thesis Topic: [To be updated]_  
-  Email: [To be updated]
 
-- **[PhD Student Name 2]**  
+- **Yasmin Sarcheshmehpour**  
   _Thesis Topic: [To be updated]_  
-  Email: [To be updated]
+  Email: [yasmin.sarcheshmehpour@aalto.fi](mailto:yasmin.sarcheshmehpour@aalto.fi)
 
-- **[PhD Student Name 3]**  
+- **Diana Pfau**  
   _Thesis Topic: [To be updated]_  
-  Email: [To be updated]
+  Email: [diana.pfau@aalto.fi](mailto:diana.pfau@aalto.fi)
+
+- **Xu Yang**  
+  _Thesis Topic: [To be updated]_  
+  Email: [xu.1.yang@aalto.fi](mailto:xu.1.yang@aalto.fi)
+
+- **Mikko Seesto**  
+  _Thesis Topic: [To be updated]_  
+  Email: [mikko.seesto@aalto.fi](mailto:mikko.seesto@aalto.fi)
+
+- **Salvatore Rastelli**  
+  _Thesis Topic: [To be updated]_  
+  Email: [salvatore.rastelli@aalto.fi](mailto:salvatore.rastelli@aalto.fi)
+
+- **Aso Bozorgpanah**  
+  _Thesis Topic: [To be updated]_  
+  Email: [aso.bozorgpanah@aalto.fi](mailto:aso.bozorgpanah@aalto.fi)
+
+### Research Assistants
+
+- **Monira Shaikhum**  
+  _Thesis Topic: [To be updated]_  
+  Email: [shaikhum.monira@aalto.fi](mailto:shaikhum.monira@aalto.fi)
+
+- **Tommi Flores Ryynänen**  
+  _Thesis Topic: [To be updated]_  
+  Email: [tommi.floresryynanen@aalto.fi](mailto:tommi.floresryynanen@aalto.fi)
+
+### Teaching Assistants
+
+- **Alexander Pavlyuk**  
+  _Thesis Topic: [To be updated]_  
+  Email: [alexander.pavlyuk@aalto.fi](mailto:alexander.pavlyuk@aalto.fi)
+
+- **Bo Zheng**  
+  _Thesis Topic: [To be updated]_  
+  Email: [bo.zheng@aalto.fi](mailto:bo.zheng@aalto.fi)
+
+- **Raihan Gafur**  
+  _Thesis Topic: [To be updated]_  
+  Email: [raihan.gafur@aalto.fi](mailto:raihan.gafur@aalto.fi)
+
+- **Amina Chahla**  
+  _Thesis Topic: [To be updated]_  
+  Email: [amina.chahla@aalto.fi](mailto:amina.chahla@aalto.fi)
 
 ## 📢 Open Positions
 We are always looking for motivated researchers! If you are interested in joining our group as a **PhD student** or **Post-Doc**, please check our latest openings or contact [Professor Alexander Jung](mailto:alex.jung@aalto.fi).
