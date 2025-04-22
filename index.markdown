@@ -35,12 +35,8 @@ Welcome to the **Aalto Machine Learning Research Group**, led by [Professor Alex
 
 ### PhD Students
 
-- **Yasmin Sarcheshmehpour**  
-  _Thesis Topic: [To be updated]_  
-  Email: [yasmin.sarcheshmehpour@aalto.fi](mailto:yasmin.sarcheshmehpour@aalto.fi)
-
-- **Diana Pfau**  
-  _Thesis Topic: [To be updated]_  
+- [**Diana Pfau**](/diana_pfau/) <br>
+  Thesis Topic: AI Regulation in the age of Surveillance Capitalism <br>
   Email: [diana.pfau@aalto.fi](mailto:diana.pfau@aalto.fi)
 
 - **Xu Yang**  
@@ -51,7 +47,7 @@ Welcome to the **Aalto Machine Learning Research Group**, led by [Professor Alex
   _Thesis Topic: [To be updated]_  
   Email: [mikko.seesto@aalto.fi](mailto:mikko.seesto@aalto.fi)
 
-- **Salvatore Rastelli**  
+- [**Salvatore Rastelli**](/salvatore_rastelli/) <br>
   _Thesis Topic: [To be updated]_  
   Email: [salvatore.rastelli@aalto.fi](mailto:salvatore.rastelli@aalto.fi)
 
