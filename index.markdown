@@ -29,6 +29,10 @@ Welcome to the **Aalto Machine Learning Research Group**, led by [Professor Alex
   Research Focus: TBA <br>
   Email: [schnoor@mathc.rwth-aachen.de](mailto:schnoor@mathc.rwth-aachen.de)
 
+- [**Mahsa Asadi**](/mahsa_asadi/) <br>
+  Research Focus: TBA <br>
+  Email: [mahsa.asadi@aalto.fi](mailto:mahsa.asadi@aalto.fi)
+
 - **Shamsi Abdurakhmanova** <br>
   Research Focus: Model-agnostic Federated Learning <br>
   Email: [shamsiiat.abdurakhmanova@aalto.fi](mailto:shamsiiat.abdurakhmanova@aalto.fi)
@@ -51,9 +55,17 @@ Welcome to the **Aalto Machine Learning Research Group**, led by [Professor Alex
   _Thesis Topic: [To be updated]_  
   Email: [salvatore.rastelli@aalto.fi](mailto:salvatore.rastelli@aalto.fi)
 
-- **Aso Bozorgpanah**  
+- [**Aso Bozorgpanah**](/aso_bozorgpanah/) <br>  
   _Thesis Topic: [To be updated]_  
   Email: [aso.bozorgpanah@aalto.fi](mailto:aso.bozorgpanah@aalto.fi)
+
+- [**Mikko Kuusakoski**](/mikko_kuusakoski/) <br>  
+  _Thesis Topic: [To be updated]_  
+  Email: [mikko.kuusakoski@jatke.fi](mailto:mikko.kuusakoski@jatke.fi)
+
+- [**Mikko Partio**](/mikko_partio) <br>  
+  _Thesis Topic: [To be updated]_  
+  Email: [mikko.partio@aalto.fi](mailto:mikko.partio@aalto.fi)
 
 ### Research Assistants
 
