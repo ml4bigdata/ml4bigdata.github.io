@@ -20,7 +20,7 @@ Ekkehard Schnoor's research focuses on the application of high-dimensional proba
 
 ## 🏢 Contact
 <!--- 📍 Aalto University, Finland  -->
-📧 [schnoor@mathc.rwth-aachen.de](mailto:schnoor@mathc.rwth-aachen.de)  
+📧 [ekkehard.schnoor@aalto.fi](mailto:ekkehard.schnoor@aalto.fi)  
 <!--- 🔗 [GitHub](https://github.com/alexjungaalto) | [LinkedIn](https://www.linkedin.com/in/aljung)  -->
 
 [Go Home](/)
