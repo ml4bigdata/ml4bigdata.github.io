@@ -10,7 +10,9 @@ title: Team members  # Page title
   <img src="/assets/images/Mahsa_Asadi.jpg" width="300">
 </div>
 
-# Mahsa Asadi
+<div align="center">
+<h1>Mahsa Asadi</h1>
+</div>
 
 ## 📖 Bio
 Mahsa's research is motivated by a fascination with the human mind and the mathematical foundations of learning. Her work lies at the intersection of theoretical reinforcement learning and human modeling. She earned her PhD in Computer Science from Inria Lille, France, with a dissertation on "Identifying Structure in Online and Collaborative Learning Problems", where she provided theoretical insights into sample complexity and regret bounds.
@@ -21,6 +23,4 @@ In our team, Mahsa will be working on modeling a secure agent capable of collect
 📍 Aalto University, Finland  
 📧 [mahsa.asadi@aalto.fi](mailto:mahsa.asadi@aalto.fi)
 [GitHub](llvllahsa.github.io) | [LinkedIn](https://www.linkedin.com/in/mahsa-asadi-b0912570/)
-
-[Go Home](/)
 

@@ -1,11 +1,9 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 layout: home
 ---
 
-Welcome to the **Aalto Machine Learning Research Group**, led by [Professor Alexander Jung](mailto:alex.jung@aalto.fi). Our research focuses on machine learning models that ensure **human agency, oversight, and adherence to fundamental rights**. We work on topics including **federated learning, explainable AI, and fairness in machine learning**.
+Welcome to the **Aalto Machine Learning Research Group**, led by Professor Alexander Jung.  
+Our research focuses on **machine learning models that respect human agency, oversight, and fundamental rights**. We work on topics including **federated learning, explainable AI, and fairness in machine learning**.
 
 ## 🏛️ Research Areas
 - Federated Learning and Privacy-Preserving AI
@@ -13,100 +11,63 @@ Welcome to the **Aalto Machine Learning Research Group**, led by [Professor Alex
 - Fairness, Accountability, and Transparency in AI
 - Machine Learning for Healthcare
 
-## 🔬 Team
+## 📚 Featured Books
 
-### Faculty
-- **Professor:** [**Alexander Jung**](/alex_jung/) <br> 
-  Tenured Associate Professor, Aalto University
+<div class="book-row" style="display:flex; gap:20px; margin-bottom:2rem; align-items:flex-start;">
+  <div>
+    <img src="/assets/images/MLbook.png" alt="Machine Learning: The Basics — cover" style="width:220px; border-radius:12px;">
+    <p><a href="https://link.springer.com/book/10.1007/978-981-16-8193-6" target="_blank">Publisher page ↗</a></p>
+  </div>
+  <div class="book-text">
+    <h2>Machine Learning: The Basics</h2>
+    <p><strong>Author:</strong> Alexander Jung · Textbook</p>
+    <p>A concise, accessible introduction to modern ML concepts, methods, and intuition.</p>
+    <ul>
+      <li>Clear coverage of supervised and unsupervised learning methods.</li>
+      <li>Builds intuition with minimal overhead; ideal as a first course companion.</li>
+      <li>Widely used in teaching; complements the Federated Learning textbook.</li>
+    </ul>
+  </div>
+</div>
 
-### Post-Doctoral Researchers
+<div class="book-row" style="display:flex; gap:20px; margin-bottom:2rem; align-items:flex-start;">
+  <div>
+    <img src="/assets/images/FLbook.jpeg" alt="Federated Learning — cover" style="width:220px; border-radius:12px;">
+    <p><a href="https://books.google.fi/books/about/Federated_Learning.html?id=HNR20QEACAAJ&redir_esc=y" target="_blank">Google Books ↗</a></p>
+  </div>
+  <div class="book-text">
+    <h2>Federated Learning — From Theory to Practice</h2>
+    <p><strong>Author:</strong> Alexander Jung · Textbook (forthcoming)</p>
+    <p>Principles, algorithms, systems, and real-world case studies for practical federated learning.</p>
+    <ul>
+      <li>From fundamentals to deployment: objectives, personalization, privacy, and robustness.</li>
+      <li>Hands-on guidance: practical recipes, pitfalls, and design patterns for FL at scale.</li>
+      <li>Applications in healthcare, sensors, and beyond, with exercises and figures.</li>
+    </ul>
+  </div>
+</div>
 
-- [**Konstantina Olioumtsevits**](/konstantina_olioumtsevits/) <br>
-  Research Focus: Making machine learning accessible and understandable <br>
-  Email: [konstantina.olioumtsevits@aalto.fi](mailto:konstantina.olioumtsevits@aalto.fi)
-
-- [**Ekkehard Schnoor**](/ekkehard_schnoor/) <br>
-  Research Focus: TBA <br>
-  Email: [schnoor@mathc.rwth-aachen.de](mailto:schnoor@mathc.rwth-aachen.de)
-
-- [**Mahsa Asadi**](/mahsa_asadi/) <br>
-  Research Focus: TBA <br>
-  Email: [mahsa.asadi@aalto.fi](mailto:mahsa.asadi@aalto.fi)
-
-- **Shamsi Abdurakhmanova** <br>
-  Research Focus: Model-agnostic Federated Learning <br>
-  Email: [shamsiiat.abdurakhmanova@aalto.fi](mailto:shamsiiat.abdurakhmanova@aalto.fi)
-
-### PhD Students
-
-- [**Diana Pfau**](/diana_pfau/) <br>
-  Thesis Topic: AI Regulation in the age of Surveillance Capitalism <br>
-  Email: [diana.pfau@aalto.fi](mailto:diana.pfau@aalto.fi)
-
-- **Xu Yang**  
-  _Thesis Topic: [To be updated]_  
-  Email: [xu.1.yang@aalto.fi](mailto:xu.1.yang@aalto.fi)
-
-- **Mikko Seesto**  
-  _Thesis Topic: [To be updated]_  
-  Email: [mikko.seesto@aalto.fi](mailto:mikko.seesto@aalto.fi)
-
-- [**Salvatore Rastelli**](/salvatore_rastelli/) <br>
-  _Thesis Topic: [To be updated]_  
-  Email: [salvatore.rastelli@aalto.fi](mailto:salvatore.rastelli@aalto.fi)
-
-- [**Aso Bozorgpanah**](/aso_bozorgpanah/) <br>  
-  _Thesis Topic: [To be updated]_  
-  Email: [aso.bozorgpanah@aalto.fi](mailto:aso.bozorgpanah@aalto.fi)
-
-- [**Mikko Kuusakoski**](/mikko_kuusakoski/) <br>  
-  _Thesis Topic: [To be updated]_  
-  Email: [mikko.kuusakoski@jatke.fi](mailto:mikko.kuusakoski@jatke.fi)
-
-- [**Mikko Partio**](/mikko_partio) <br>  
-  _Thesis Topic: [To be updated]_  
-  Email: [mikko.partio@aalto.fi](mailto:mikko.partio@aalto.fi)
-
-### Research Assistants
-
-- **Monira Shaikhum**  
-  _Thesis Topic: [To be updated]_  
-  Email: [shaikhum.monira@aalto.fi](mailto:shaikhum.monira@aalto.fi)
-
-- **Tommi Flores Ryynänen**  
-  _Thesis Topic: [To be updated]_  
-  Email: [tommi.floresryynanen@aalto.fi](mailto:tommi.floresryynanen@aalto.fi)
-
-### Teaching Assistants
-
-- **Alexander Pavlyuk**  
-  _Thesis Topic: [To be updated]_  
-  Email: [alexander.pavlyuk@aalto.fi](mailto:alexander.pavlyuk@aalto.fi)
-
-- **Bo Zheng**  
-  _Thesis Topic: [To be updated]_  
-  Email: [bo.zheng@aalto.fi](mailto:bo.zheng@aalto.fi)
-
-- **Raihan Gafur**  
-  _Thesis Topic: [To be updated]_  
-  Email: [raihan.gafur@aalto.fi](mailto:raihan.gafur@aalto.fi)
-
-- **Amina Chahla**  
-  _Thesis Topic: [To be updated]_  
-  Email: [amina.chahla@aalto.fi](mailto:amina.chahla@aalto.fi)
+<div class="book-row" style="display:flex; gap:20px; margin-bottom:2rem; align-items:flex-start;">
+  <div>
+    <img src="/assets/images/dict.png" alt="Aalto Dictionary of ML — cover" style="width:220px; border-radius:12px;">
+    <p><a href="https://aaltodictionaryofml.github.io" target="_blank">View Online ↗</a></p>
+  </div>
+  <div class="book-text">
+    <h2>Aalto Dictionary of Machine Learning</h2>
+    <p><strong>Authors:</strong> Alexander Jung et al.</p>
+    <p>A multilingual glossary for machine learning terms, designed to make ML concepts more accessible.</p>
+    <ul>
+      <li>Provides clear definitions and explanations of core ML terminology.</li>
+      <li>Supports teaching and research by standardizing terminology.</li>
+      <li>Open access online resource for students, researchers, and practitioners.</li>
+    </ul>
+  </div>
+</div>
 
 ## 📢 Open Positions
-We are always looking for motivated researchers! If you are interested in joining our group as a **PhD student** or **Post-Doc**, please check our latest openings or contact [Professor Alexander Jung](mailto:alex.jung@aalto.fi).
-
-## 📚 Selected Publications
-- [Jung et al., "Machine Learning: The Basics", Springer, 2024](https://link.springer.com/book/10.1007/978-3-030-57347-5)
-- [Paper Title], [Conference/Journal Name], [Year]
-- [Paper Title], [Conference/Journal Name], [Year]
+We are always looking for motivated researchers! Join us as a **PhD student** or **Post-Doc**, or contact [Professor Alexander Jung](mailto:alex.jung@aalto.fi) for inquiries.
 
 ## 🏢 Contact
 📍 Aalto University, Finland  
 📧 [alex.jung@aalto.fi](mailto:alex.jung@aalto.fi)  
 🔗 [GitHub](https://github.com/alexjungaalto) | [LinkedIn](https://www.linkedin.com/in/aljung/) | [YouTube](https://www.youtube.com/@alexjung111)
-
----
-⚡ _This page is maintained by the Aalto Machine Learning Research Group._

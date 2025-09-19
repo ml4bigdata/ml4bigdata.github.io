@@ -10,7 +10,9 @@ title: Team members  # Page title
   <img src="/assets/images/Aso_Bozorgpanah.jpg" width="300">
 </div> 
 
-# Aso Bozorgpanah
+<div align="center">
+<h1>Aso Bozorgpanah</h1>
+</div>
 
 ## 📖 Bio
 Aso Bozorgpanah is a PhD researcher specializing in data privacy and eXplainable Artificial Intelligence at Aalto University. With foundation in computer and software engineering, her research focuses on developing privacy-aware machine learning models that balance performance with transparency. Aso brings prior experience as a machine learning engineer and software developer, and his research contributions span privacy-preserving algorithms, explainability frameworks, and AI applications in renewable energy. She actively contributes to interdisciplinary collaborations and has presented her research and work at both academic and industry conferences.
