@@ -10,7 +10,9 @@ title: Team members  # Page title
   <img src="/assets/images/valokuva-KO-.jpg" width="400">
 </div>
 
-# Konstantina Olioumtsevits, PhD
+<div align="center">
+<h1>Konstantina Olioumtsevits</h1>
+</div>
 
 ## 📖 Bio
 Konstantina Olioumtsevits has a background in linguistics and completed her PhD at the Aristotle University of Thessaloniki (Greece), specializing in second language learning and teaching in populations with a migrant and refugee background. With a passion for breaking down linguistic barriers, in her current postdoctoral position as a member of the Aalto Machine Learning Research Group, she works in developing and translating a machine learning dictionary, which can be used as a specialized information, reference, learning, and teaching resource in the field.

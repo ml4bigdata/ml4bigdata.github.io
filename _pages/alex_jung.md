@@ -1,27 +1,24 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 layout: page
-title: Team members  # Page title
+title: Team Members — Aalto Machine Learning Research Group
 ---
 
 <div align="center">
-  <img src="/assets/images/AlexanderJung.jpg" width="300">
+  <img src="/assets/images/AlexanderJung.jpg" width="300" alt="Professor Alexander Jung">
 </div>
 
-# Alex Jung
+<div align="center">
+<h1>Alex Jung</h1>
+</div>
 
 ## 📖 Bio
-Alexander (Alex) Jung is an Associate Professor for Machine Learning at the Department of Computer science of Aalto University. His current research focus is on fundamental limits and efficient methods for trustworthy federated learning.
+Alexander (Alex) Jung is a tenured Associate Professor in Machine Learning at the Department of Computer Science, Aalto University, Finland. He obtained his Ph.D. (with "sub auspiciis") in electrical engineering in 2012 from the Technical University of Vienna. After postdoctoral positions at ETH Zurich and TU Vienna, he joined Aalto University in 2015. His research focuses on trustworthy federated learning, explainable AI, and scalable machine learning systems.
 
 ## 📚 Selected Publications
-- 
+
+## 🏆 Awards
 
 ## 🏢 Contact
 📍 Aalto University, Finland  
 📧 [alex.jung@aalto.fi](mailto:alex.jung@aalto.fi)  
-🔗 [GitHub](https://github.com/alexjungaalto) | [LinkedIn](https://www.linkedin.com/in/aljung)
-
-[Go Home](/)
-
+🔗 [GitHub](https://github.com/alexjungaalto) | [LinkedIn](https://www.linkedin.com/in/aljung) | [YouTube](https://www.youtube.com/@alexjung111)

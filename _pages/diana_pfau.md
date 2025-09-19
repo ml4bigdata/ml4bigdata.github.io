@@ -10,7 +10,9 @@ title: Team members  # Page title
   <img src="/assets/images/MFO_zugeschnitten.jpg" width="300">
 </div> -->
 
-# Diana Pfau
+<div align="center">
+<h1>Diana Pfau</h1>
+</div>
 
 ## 📖 Bio
 Diana Pfau has a background in law with a master's degree in International Business Law from the University of Helsinki and a Bachelor of laws in Good Governance from the University of Rostock, Germany. Her main interests lay in Data protection laws and their implementation into the design cycle of AI systems, trustworthy AI, explainable AI. Currently, she is a doctoral researcher focusing on the Regulation of Artificial intelligence and machine learning in the context of Surveillance Capitalism.
