@@ -17,7 +17,8 @@ Any ML method can be decomposed into three core components:
 2. **Model Design**: The architecture or algorithm used to process the data.
 3. **Loss Functions**: The criteria used to evaluate and optimize the model's performance.
 
-This framework allows students from various disciplines to grasp the underlying principles of ML without delving into complex mathematics.
+This framework allows students from various disciplines to grasp the underlying principles of ML without 
+delving into unnecessarily complicated mathematics (which is often overkill).
 
 ## Evidence-Based Teaching Approach
 
@@ -34,7 +35,8 @@ using [Python notebooks](https://github.com/alexjungaalto/TeachingPublic/tree/ma
 
 - **Concise Lectures**: Focused on specific learning objectives to maintain student engagement.
 - **Curated Resources**: Including textbooks like ["Machine Learning: The Basics"](https://link.springer.com) by A. Jung, YouTube playlists, and GitHub repositories.
-- **Feedback-Adaptive Cycle**: Regularly updating course materials based on student feedback to enhance learning outcomes.
+- **Feedback-Adaptive Cycle**: Regularly updating course materials based on student feedback to enhance learning outcomes. Here is an example 
+for a feedback letter that explains how student feedback has been leveraged in the course revision: [click me](/assets/images/ResponseLetter.pdf)
 
 ## Recognition and Impact
 
