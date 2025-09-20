@@ -19,7 +19,7 @@ Any ML method can be decomposed into three core components:
 3. **Loss Function** – The criterion used to evaluate and optimize model performance.  
 
 This framework helps students understand ML principles without being overwhelmed by unnecessary mathematical formalism.  
-*(See related entries in the [Aalto Dictionary of Machine Learning](https://aaltodictionaryofml.github.io/ADictML.pdf).)*
+*(See related entries in the [Aalto Dictionary of Machine Learning](https://aaltodictionaryofml.github.io/)*
 
 ---
 
@@ -45,7 +45,7 @@ Our courses emphasize **active learning and conceptual clarity** through:
 ## Recognition and Impact
 
 - **2018** – *Teacher of the Year*, Department of Computer Science, Aalto University.  
-  [![Teacher of the Year award certificate](/assets/images/TeacherAward.png)](/assets/images/TeacherAward.png)  
+  [Teacher of the Year award certificate](/assets/images/TeacherAward.png)]
 
 - **2020** – *Teaching Assistant of the Year*, awarded to Shamsi Abdurakhmanova, Aalto School of Science.  
   [Read announcement on Aalto.fi](https://www.aalto.fi/en/news/sci-awards-2020-celebrate-our-successes-in-a-challenging-year#8-teaching-assistant-of-the-year)  
