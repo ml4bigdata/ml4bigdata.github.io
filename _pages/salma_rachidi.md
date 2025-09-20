@@ -7,7 +7,7 @@ title: Team members  # Page title
 ---
 
 <div align="center">
-  <img src="/assets/images/salma_rachidi.jpeg" width="300">
+  <img src="/assets/images/salma_rachidi.jpg" width="300">
 </div>
 
 # Salma Rachidi
