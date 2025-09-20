@@ -6,7 +6,8 @@ permalink: /teaching/
 
 # A Three-Component Perspective on Machine Learning
 
-Machine learning (ML) is transforming our world, from personalized recommendations to autonomous systems. To effectively teach this complex field, I have developed a structured approach that simplifies ML concepts for diverse audiences.
+Machine learning (ML) is transforming our world, from personalized recommendations to autonomous systems. To effectively teach this complex field, we 
+have developed a structured approach that simplifies ML concepts for diverse audiences.
 
 ## The Three Fundamental Components of ML
 
@@ -20,7 +21,7 @@ This framework allows students from various disciplines to grasp the underlying 
 
 ## Evidence-Based Teaching Approach
 
-My courses emphasize active learning and conceptual clarity through:
+Our courses emphasize active learning and conceptual clarity through:
 
 - **Interactive Learning**: Utilizing online quizzes and coding assignments.
 - **Project-Based Assessments**: Engaging students in hands-on projects to apply ML concepts.
@@ -36,7 +37,8 @@ These methods ensure that students not only understand ML theory but also gain p
 
 ## Recognition and Impact
 
-- **Teacher of the Year 2018**: Awarded by the Department of Computer Science, Aalto University.
+- **Teaching Assistant of the Year 2020**: Awarded by the Aalto School of Science to Shamsi, Aalto University.
+- **Teacher of the Year 2018**: Awarded by the Department of Computer Science to Alex, Aalto University.
 - **High Student Ratings**: Consistently positive evaluations in teaching assessments.
 - **International Engagement**: Invited speaker and lecturer at multiple institutions and conferences worldwide.
 
