@@ -45,12 +45,12 @@ Our courses emphasize **active learning and conceptual clarity** through:
 ## Recognition and Impact
 
 - **2018** – *Teacher of the Year*, Department of Computer Science, Aalto University.  
-  [Teacher of the Year award certificate](/assets/images/TeacherAward.png)]
+  [Teacher of the Year award certificate](/assets/images/TeacherAward.png)
 
 - **2020** – *Teaching Assistant of the Year*, awarded to Shamsi Abdurakhmanova, Aalto School of Science.  
   [Read announcement on Aalto.fi](https://www.aalto.fi/en/news/sci-awards-2020-celebrate-our-successes-in-a-challenging-year#8-teaching-assistant-of-the-year)  
 
-- **2021–2024** – *Most popular course in FiTech*:  
+- **2020–2024** – *Most popular course in FiTech*:  
   *CS-EJ3211 Machine Learning with Python*, the largest registered course across the Finnish network university, with outstanding student feedback.  
   [Read more (PDF)](/assets/images/MLwPythonBestCourse.pdf)  
 
