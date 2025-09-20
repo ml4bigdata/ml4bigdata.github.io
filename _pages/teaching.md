@@ -25,9 +25,10 @@ Our courses emphasize active learning and conceptual clarity through:
 
 - **Interactive Learning**: Utilizing online quizzes and coding assignments.
 - **Project-Based Assessments**: Engaging students in hands-on projects to apply ML concepts.
-- **Practical Exercises**: Providing Python notebooks hosted on [JupyterHub](https://jupyter.cs.aalto.fi) for real-world experience.
-
-These methods ensure that students not only understand ML theory but also gain practical skills applicable in various fields.
+- **Peer-Review**: Arguably the main tool of science is critical assessment by peers (peer review). We try to 
+train students in giving and receiving critical feedback. 
+- **Learning by Doing**: Theoretical concepts need to be taught and learnt using hands-on assignments, e.g., 
+using [Python notebooks](https://github.com/alexjungaalto/TeachingPublic/tree/master/MLwP) 
 
 ## Teaching Philosophy
 
@@ -37,6 +38,8 @@ These methods ensure that students not only understand ML theory but also gain p
 
 ## Recognition and Impact
 
+- **Most popular course at FiTech**: Our course *CS-EJ3211 Machine Learning with Python* has faced the largest registration numbers 
+among the entire Finnish network university (FiTech). It also received outstanding student feedback. [click me](/assets/images/MLwPythonBestCourse.pdf)) 
 - **Teaching Assistant of the Year 2020**: Awarded by the Aalto School of Science to Shamsi Abdurakhmanova, Aalto University. [click me](https://www.aalto.fi/en/news/sci-awards-2020-celebrate-our-successes-in-a-challenging-year#8-teaching-assistant-of-the-year)
 - **Teacher of the Year 2018**: Awarded by the Department of Computer Science to Alex Jung, Aalto University. [click me](/assets/images/TeacherAward.png)
 - **High Student Ratings**: Consistently positive evaluations in teaching assessments.
