@@ -15,7 +15,11 @@ title: Team members  # Page title
 </div>
 
 ## 📖 Bio
-Konstantina Olioumtsevits has a background in linguistics and completed her PhD at the Aristotle University of Thessaloniki (Greece), specializing in second language learning and teaching in populations with a migrant and refugee background. With a passion for breaking down linguistic barriers, in her current postdoctoral position as a member of the Aalto Machine Learning Research Group, she works in developing and translating a machine learning dictionary, which can be used as a specialized information, reference, learning, and teaching resource in the field.
+Konstantina Olioumtsevits has a background in linguistics and completed her PhD at the Aristotle University of Thessaloniki (Greece), 
+specializing in second language learning and teaching in populations with a migrant and refugee background. With a passion for 
+breaking down linguistic barriers, in her current postdoctoral position as a member of the Aalto Machine Learning Research Group, 
+she works in developing and translating a machine learning dictionary, which can be used as a specialized information, reference, 
+learning, and teaching resource in the field.
 
 ## 📚 Selected Publications
 - [J. E. Bosch, K. Olioumtsevits, S. A. A. Santarelli, F. Foppolo, F. Faloppa, and D. Papadopoulou, "Teaching L2 learners during a pandemic: A cross-country investigation of teachers’ challenges and needs," in _Multilingualism and Multiculturalism in Language Education_, S. Karpava, Ed., Cham, Switzerland: Springer Nature, 2025, ch. 13, pp. 253–276.](https://link.springer.com/book/10.1007/978-3-031-76043-3)

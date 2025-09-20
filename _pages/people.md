@@ -35,7 +35,7 @@ title: Team members  # Page title
   _Thesis Topic: [To be updated]_  
   Email: [xu.1.yang@aalto.fi](mailto:xu.1.yang@aalto.fi)
 
-- **Salma Rachidi**  
+- [**Salma Rachidi**](/salma_rachidi/)  
   _Thesis Topic: [To be updated]_  
   Email: [salma.rachidi@aalto.fi](mailto:salma.rachidi@aalto.fi)
 

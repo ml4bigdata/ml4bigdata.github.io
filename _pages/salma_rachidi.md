@@ -1,0 +1,26 @@
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+
+layout: page
+title: Team members  # Page title
+---
+
+<div align="center">
+  <img src="/assets/images/salma_rachidi.jpeg" width="300">
+</div>
+
+# Salma Rachidi
+
+## 📖 Bio
+
+## 📚 Selected Publications
+
+- 
+
+## 🏢 Contact
+📍 Aalto University, Finland  
+📧 [salma.rachidi@aalto.fi](mailto:salma.rachidi@aalto.fi)
+
+[Go Home](/)
+
