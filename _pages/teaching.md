@@ -19,7 +19,7 @@ Any ML method can be decomposed into three core components:
 3. **Loss Function** – The criterion used to evaluate and optimize model performance.  
 
 This framework helps students understand ML principles without being overwhelmed by unnecessary mathematical formalism.  
-*(See related entries in the [Aalto Dictionary of Machine Learning](https://aaltodictionaryofml.github.io/)*
+*See related entries in the [Aalto Dictionary of Machine Learning](https://aaltodictionaryofml.github.io/)*
 
 ---
 
