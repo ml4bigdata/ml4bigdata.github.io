@@ -41,7 +41,7 @@ for a feedback letter that explains how student feedback has been leveraged in t
 ## Recognition and Impact
 
 - **Most popular course at FiTech**: Our course *CS-EJ3211 Machine Learning with Python* has faced the largest registration numbers 
-among the entire Finnish network university (FiTech). It also received outstanding student feedback. [click me](/assets/images/MLwPythonBestCourse.pdf)) 
+among the entire Finnish network university (FiTech). It also received outstanding student feedback. [click me](/assets/images/MLwPythonBestCourse.pdf) 
 - **Teaching Assistant of the Year 2020**: Awarded by the Aalto School of Science to Shamsi Abdurakhmanova, Aalto University. [click me](https://www.aalto.fi/en/news/sci-awards-2020-celebrate-our-successes-in-a-challenging-year#8-teaching-assistant-of-the-year)
 - **Teacher of the Year 2018**: Awarded by the Department of Computer Science to Alex Jung, Aalto University. [click me](/assets/images/TeacherAward.png)
 - **High Student Ratings**: Consistently positive evaluations in teaching assessments.
