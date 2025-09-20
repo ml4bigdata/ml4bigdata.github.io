@@ -37,8 +37,8 @@ These methods ensure that students not only understand ML theory but also gain p
 
 ## Recognition and Impact
 
-- **Teaching Assistant of the Year 2020**: Awarded by the Aalto School of Science to Shamsi, Aalto University.
-- **Teacher of the Year 2018**: Awarded by the Department of Computer Science to Alex, Aalto University.
+- **Teaching Assistant of the Year 2020**: Awarded by the Aalto School of Science to Shamsiiat Abudrakhmanovy, Aalto University. [click me](https://www.aalto.fi/en/news/sci-awards-2020-celebrate-our-successes-in-a-challenging-year#8-teaching-assistant-of-the-year)
+- **Teacher of the Year 2018**: Awarded by the Department of Computer Science to Alex Jung, Aalto University. [click me](/assets/images/TeacherAward.png)
 - **High Student Ratings**: Consistently positive evaluations in teaching assessments.
 - **International Engagement**: Invited speaker and lecturer at multiple institutions and conferences worldwide.
 
