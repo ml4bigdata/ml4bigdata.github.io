@@ -16,7 +16,7 @@ title: Team members  # Page title
 
 ## 📖 Bio
 
-Salma Rachidi is a doctoral researcher specializing in explainable machine learning. She holds a bachelor’s degree in Bioinformation Technology and a master’s degree in Complex Systems from Aalto University, with a minor in computer science in both programs. She has experience working with cancer patient data and completed her master’s thesis on explainable ML for cancer survival prediction under the supervision of Alex. Her research interests lie at the intersection of AI and biomedical informatics, with a focus on developing clinically grounded machine learning methods.
+Salma Rachidi is a doctoral researcher specializing in explainable machine learning. She holds a bachelor’s degree in Bioinformation Technology and a master’s degree in Complex Systems from Aalto University, with a minor in computer science in both programs. She has experience working with cancer patient data and completed her master’s thesis on explainable ML in cancer survival prediction under the supervision of Alex. Her research interests lie at the intersection of AI and biomedical informatics, with a focus on developing clinically grounded machine learning methods.
 
 ## 📚 Selected Publications
 
