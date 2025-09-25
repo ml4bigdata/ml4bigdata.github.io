@@ -14,23 +14,39 @@ title: Team members  # Page title
 <h1>Ekkehard Schnoor</h1>
 </div>
 
-Welcome to my academic website! I'm a PostDoc in the  Machine Learning Research Group at Aalto University, with a broad interest in foundations of machine learning. Feel free to reach out if you are interested in my work!
-
+Welcome to my academic website! I'm a PostDoc in the <a href="https://ml4bigdata.github.io/" target="_blank" rel="noopener">Machine Learning Research Group</a>, led by 
+<a href="https://ml4bigdata.github.io/alex_jung/" target="_blank" rel="noopener">Alex Jung</a>, at Aalto University, with a broad interest in foundations of machine learning. 
+Feel free to reach out if you are interested in <a href="https://scholar.google.de/citations?user=s1qhNzIAAAAJ&hl=de" target="_blank" rel="noopener">my work</a>! 
+ 
 ## 📖 Bio
-Ekkehard Schnoor's research focuses on the application of high-dimensional probability theory, particularly in establishing performance guarantees within the fields of machine learning and compressive sensing. His primary background is in the classical concept of generalization in machine learning, spanning a spectrum from linear models to deep neural networks, where he has explored both asymptotic and non-asymptotic approaches. Recently, he has developed a keen interest in federated learning, reinforcement learning, and explainability.
+<p>
+Before joining Aalto University, I was a member of the <a href="https://www.hhi.fraunhofer.de/en/departments/ai/research-groups/explainable-artificial-intelligence/team.html" target="_blank" rel="noopener">Explainable AI group at Fraunhofer HHI</a>.
+Prior to this, I obtained my PhD in mathematics from RWTH Aachen University under supervision of <a href="https://scholar.google.com/citations?user=KA2BM_UAAAAJ&hl=en" target="_blank" rel="noopener">Holger Rauhut</a> for my <a href="https://publications.rwth-aachen.de/record/1012246" target="_blank" rel="noopener">dissertation</a> in statistical learning theory, at the intersection of Compressive Sensing and Deep Learning.
+The overall goal of my research is to establish rigorous performance guaratuees for high-dimensional machine learning, typically drawing on tools from High-dimensional Probability and
+leveraging on the Concentration of Measure phenomenon. 
+I'm also part of the team behind the <a href="https://aaltodictionaryofml.github.io/" target="_blank" rel="noopener">Aalto Dictionary of Machine Learning</a>.
+
+<a href="https://mathscinet.ams.org/mathscinet/freetools/collab-dist?source=1550644&target=189017" target="_blank" rel="noopener">My Erdös number is 4</a>, via Holger Rauhut, Jürgen Prestin, and Charles Kam-tai Chui.
+</p>
 
 ## 🔬 Research
 
+I'm interested in a complementary view on machine learning, combining the perspectives of generalization and explainability.
+<ul>
+  <li><strong>Generalization:</strong> Asymptotic (e.g., via the Rademacher complexity) and non-asymptotic (random matrix theory) approaches.</li>
+  <li><strong>Explainability:</strong> Concept Activation Vectors; Sparse Autoencoders (SAEs) for Large Language Models (LLMs).</li>
+  <li><strong>Settings:</strong> From basic linear models to deep neural networks, federated learning, and reinforcement learning.</li>
+  <li><strong>Tools:</strong> High-dimensional probability, random matrix theory (RMT), and (random) fixed-point methods.</li>
+</ul>
+
 ## 📚 Selected Publications
-- 
+
+For a complete list of publications, see my <a href="https://scholar.google.de/citations?user=s1qhNzIAAAAJ&hl=de" target="_blank" rel="noopener">Google Scholar profile</a>.
 
 ## 🏢 Contact
 📍 Aalto University, Finland  
 📧 [ekkehard.schnoor@aalto.fi](mailto:ekkehard.schnoor@aalto.fi)  
-<a href="https://scholar.google.de/citations?user=s1qhNzIAAAAJ&hl=de&oi=ao" rel="noopener" aria-label="Google Scholar">
-  <i class="ai ai-google-scholar ai-2x"></i> Google Scholar
-</a>
-🔗 [GitHub](https://github.com/ekki25) | [LinkedIn](https://www.linkedin.com/in/ekkehard-schnoor/)
+🔗 [Google Scholar](https://scholar.google.de/citations?user=s1qhNzIAAAAJ&hl=de&oi=ao) |  [GitHub](https://github.com/ekki25) | [LinkedIn](https://www.linkedin.com/in/ekkehard-schnoor/)
 
 
 [Go Home](/)
