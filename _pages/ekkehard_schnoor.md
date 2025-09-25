@@ -33,7 +33,7 @@ I'm also part of the team behind the <a href="https://aaltodictionaryofml.github
 
 I'm interested in a complementary view on machine learning, combining the perspectives of generalization and explainability.
 <ul>
-  <li><strong>Generalization:</strong> Asymptotic (e.g., via the Rademacher complexity) and non-asymptotic (based on random matrix theory) approaches.</li>
+  <li><strong>Generalization:</strong> Non-asymptotic (e.g., using the Rademacher complexity) and asymptotic (based on random matrix theory) approaches.</li>
   <li><strong>Explainability:</strong> Concept Activation Vectors (CAVs), and Sparse Autoencoders (SAEs) for Large Language Models (LLMs).</li>
   <li><strong>Settings:</strong> From basic linear models to deep neural networks, federated learning, and reinforcement learning.</li>
   <li><strong>Tools:</strong> High-dimensional probability, random matrix theory (RMT), and (random) fixed-point methods.</li>
