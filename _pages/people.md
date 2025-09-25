@@ -14,8 +14,8 @@ title: Team members  # Page title
   Email: [konstantina.olioumtsevits@aalto.fi](mailto:konstantina.olioumtsevits@aalto.fi)
 
 - [**Ekkehard Schnoor**](/ekkehard_schnoor/) <br>
-  Research Focus: TBA <br>
-  Email: [schnoor@mathc.rwth-aachen.de](mailto:schnoor@mathc.rwth-aachen.de)
+  Research Focus: Generalization and Explainability in Machine Learning <br>
+  Email: [ekkehard.schnoor@aalto.fi](mailto:schnoor@mathc.rwth-aachen.de)
 
 - [**Mahsa Asadi**](/mahsa_asadi/) <br>
   Research Focus: TBA <br>
