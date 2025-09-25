@@ -22,7 +22,7 @@ Feel free to reach out if you are interested in <a href="https://scholar.google.
 <p>
 Before joining Aalto University, I was a member of the <a href="https://www.hhi.fraunhofer.de/en/departments/ai/research-groups/explainable-artificial-intelligence/team.html" target="_blank" rel="noopener">Explainable AI group at Fraunhofer HHI</a>.
 Prior to this, I obtained my PhD in mathematics from RWTH Aachen University under supervision of <a href="https://scholar.google.com/citations?user=KA2BM_UAAAAJ&hl=en" target="_blank" rel="noopener">Holger Rauhut</a> for my <a href="https://publications.rwth-aachen.de/record/1012246" target="_blank" rel="noopener">dissertation</a> in statistical learning theory, at the intersection of Compressive Sensing and Deep Learning.
-The overall goal of my research is to establish rigorous performance guaratuees for high-dimensional machine learning, typically drawing on tools from High-dimensional Probability and
+The overall goal of my research is to establish rigorous performance guarantee for high-dimensional machine learning, typically drawing on tools from High-dimensional Probability and
 leveraging on the Concentration of Measure phenomenon. 
 I'm also part of the team behind the <a href="https://aaltodictionaryofml.github.io/" target="_blank" rel="noopener">Aalto Dictionary of Machine Learning</a>. <br><br>
 
