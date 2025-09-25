@@ -14,8 +14,8 @@ title: Team members  # Page title
 <h1>Ekkehard Schnoor</h1>
 </div>
 
-Welcome to my academic website! I'm a PostDoc in the <a href="https://ml4bigdata.github.io/" target="_blank" rel="noopener">Machine Learning Research Group</a>, led by 
-<a href="https://ml4bigdata.github.io/alex_jung/" target="_blank" rel="noopener">Alex Jung</a>, at Aalto University, with a broad interest in foundations of machine learning. 
+Welcome to my academic website! I'm a PostDoc in the <a href="https://ml4bigdata.github.io/" target="_blank" rel="noopener">Machine Learning Research Group</a> at Aalto University, led by 
+<a href="https://ml4bigdata.github.io/alex_jung/" target="_blank" rel="noopener">Alex Jung</a>, with a broad interest in the foundations of machine learning. 
 Feel free to reach out if you are interested in <a href="https://scholar.google.de/citations?user=s1qhNzIAAAAJ&hl=de" target="_blank" rel="noopener">my work</a>! 
  
 ## 📖 Bio
