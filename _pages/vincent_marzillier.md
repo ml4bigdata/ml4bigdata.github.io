@@ -13,6 +13,7 @@ title: Team members  # Page title
 # Vincent Marzillier
 
 ## 📖 Bio
+Vincent Marzillier has a background in building-, energy- and information technology and completed his M.Eng at University of Applied Sciences (Berlin, Germany), specializing in energy data analysis for air handling units in industrial environments. He works as a full-time PhD student in an industrial company in cooperation with Aalto University and HTW Berlin and is member of the Aalto Machine Learning Research Group. The focus of his research work is the development of a data driven control strategy for air handling units in production halls to improve energy efficiency and control quality.
 
 ## 📚 Selected Publications
 
