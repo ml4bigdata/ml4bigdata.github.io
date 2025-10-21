@@ -7,7 +7,7 @@ title: Team members  # Page title
 ---
 
 <div align="center">
-  <img src="/assets/images/MFO_zugeschnitten.jpg" width="300">
+  <img src="/assets/images/schnoor_bw_aalto.jpeg" width="300">
 </div>
 
 <div align="center">
