@@ -6,9 +6,9 @@ layout: page
 title: Team members  # Page title
 ---
 
-<!-- <div align="center">
-  <img src="/assets/images/Mikko_Partio.jpeg" width="300">
-</div> -->
+<div align="center">
+  <img src="/assets/images/Vincent_Marzillier.jpg" width="300">
+</div>
 
 # Vincent Marzillier
 
