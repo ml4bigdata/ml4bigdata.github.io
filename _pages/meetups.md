@@ -20,9 +20,11 @@ _Register once to receive the recurring link._
 
 - **8 Aug 2025 —** Mahsa Asadi: *Personalized Mean Estimation* · [YouTube](https://youtu.be/eY4kQo52GLo?si=NOt0-s62lSt0MKB5)  
 - **22 Aug 2025 —** Alexander Jung: *Clinically Grounded Machine Learning* · [YouTube](https://youtu.be/h7JmspOc1lI?si=oZ5D39o6nlDCdUBN)  
-- **5 Sep 2025 —** Konstantina Olioumtsevits: *Narratives, Lexicon, and Learning* (YouTube link TBA)  
-- **19 Sep 2025 —** Diana Pfau: *Explainable ML: A Legal Perspective*  
-- **17 Oct 2025 —** Heikki Myllykoski: *Machine Learning at the Finnish Meteorological Institute*  
+- **5 Sep 2025 —** Konstantina Olioumtsevits: *Narratives, Lexicon, and Learning* [YouTube](https://youtu.be/h7JmspOc1lI?si=oZ5D39o6nlDCdUBN)  
+- **19 Sep 2025 —** Diana Pfau: *Explainable ML: A Legal Perspective*  [YouTube](https://youtu.be/ixdUUTrpdYI?si=oUaF18GGkDV6DCNQ)
+- **17 Oct 2025 —** Heikki Myllykoski: *Machine Learning at the Finnish Meteorological Institute*  [YouTube](https://youtu.be/-yqjI2VKuzE)
+- **31 Oct 2025 —** Alex Jung: *Federated Clustering via Generalized Total Variation*  [YouTube](https://youtu.be/BZs71pIicJo)
+- **14 Nov 2025 —** Virve Karsisto: *Post-processing road surface temperature forecast with XGBoost*  [TBA]()
 
 ---
 
