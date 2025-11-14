@@ -10,11 +10,11 @@ The overarching motivation of my research is to advance the frontiers of trustwo
 
 - **A Mathematical Theory of Trustworthy Federated Learning (MATHFUL)**  
   Funded by the Research Council of Finland (Decision #363624)  
-  [More Info](https://research.fi/en/projects/a-mathematical-theory-of-trustworthy-federated-learning-mathful)
+  [More Info](https://research.fi/en/results/funding/81387)
   
 - **A Mathematical Theory of Federated Learning (TRUST-FELT)**  
   Funded by the Jane and Aatos Erkko Foundation (Decision #A835)  
-  [More Info](https://research.fi/en/projects/a-mathematical-theory-of-federated-learning-trust-felt)
+  [More Info](https://research.fi/en/results/funding/81021)
   
 - **Forward-Looking AI Governance in Banking & Insurance (FLAIG)**  
   Supported by [Business Finland](https://www.businessfinland.com)
