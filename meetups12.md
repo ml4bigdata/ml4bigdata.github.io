@@ -16,15 +16,14 @@ Our bi-weekly online seminar for affiliates and friends of the community.
 
 ### Past events
 #### 2025
-* 28 Nov 2025 — Shamsiiat Abdurakhmanova: Federated Soft Clustering
-* 14 Nov 2025 — Virve Karsisto: Post-processing road surface temperature forecast with XGBoost
-* 31 Oct 2025 — Alex Jung: Federated Clustering via Generalized Total Variation
+* 28 Nov 2025 — Shamsiiat Abdurakhmanova: Federated Soft Clustering · [🎥 Recording](https://youtu.be/Hha6k6JFo_8?si=dLFEuJ2d9qCzhJte)
+* 14 Nov 2025 — Virve Karsisto: Post-processing road surface temperature forecast with XGBoost · [🎥 Recording](https://youtu.be/IozLj2Wg2Sw?si=J_jP1B2vldmASJNR)
+* 31 Oct 2025 — Alex Jung: Federated Clustering via Generalized Total Variation · [🎥 Recording](https://youtu.be/BZs71pIicJo?si=77PqtkqiV3-IysDQ)
 * 17 Oct 2025 — Heikki Myllykoski: Machine Learning at the Finnish Meteorological Institute
 * 19 Sep 2025 — Diana Pfau: AI Law
 * 5 Sep 2025 — Konstantina Olioumtsevits: Narratives, Lexicon, and Learning
 * 22 Aug 2025 — Alex Jung: Clinically-Grounded ML
 * 8 Aug 2025 — Mahsa Asadi: Personalized Mean Estimation
-
 
 
 * * *
