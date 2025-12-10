@@ -11,7 +11,7 @@ import pytz
 # --- config ---
 
 ICS_URL_ENV = "OUTLOOK_ICS_URL"
-TARGET_FILE = Path("meetups12.md")  # adapt if it's e.g. meetups/index.md
+TARGET_FILE = Path("_pages/meetups.md")  # adapt if it's e.g. meetups/index.md
 SECTION_HEADER = "## Current & upcoming"  # anchor text in your markdown
 TZ = pytz.timezone("Europe/Helsinki")
 
@@ -196,7 +196,7 @@ def update_meetups_file(section_markdown: str):
         updated = f"""---
 layout: page
 title: Affiliate Meetups — Aalto Machine Learning Group
-permalink: /meetups12/
+permalink: /meetups/
 ---
 
 Our bi-weekly online seminar for affiliates and friends of the community.
