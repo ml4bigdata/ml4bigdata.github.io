@@ -9,8 +9,8 @@ Our bi-weekly online seminar for affiliates and friends of the community.
 * * *
 
 ## Upcoming
-* 12 Dec 2025 — Right to Explainability of AI · [💻 Zoom](https://aalto.zoom.us/j/67575810465)
-* 9 Jan 2026 — Aalto ML Meetup · [💻 Zoom](https://aalto.zoom.us/j/67575810465)
+* 12 Dec 2025 — Right to Explainability of AI · [💻 Zoom](https://aalto.zoom.us/j/62824564124)
+* 9 Jan 2026 — Aalto ML Meetup · [💻 Zoom](https://aalto.zoom.us/j/62824564124)
 
 ## Past events
 #### 2025
