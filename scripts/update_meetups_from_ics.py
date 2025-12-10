@@ -1,4 +1,12 @@
 #!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Wed Dec 10 09:40:03 2025
+
+@author: junga1
+"""
+
+#!/usr/bin/env python3
 import os
 from datetime import datetime
 from pathlib import Path
@@ -181,9 +189,8 @@ def update_meetups_file(section_markdown: str):
         text = TARGET_FILE.read_text(encoding="utf-8")
     else:
         text = ""
-
-        # Create a minimal page from scratch
-        updated = f"""---
+      # Create a minimal page from scratch
+    updated = f"""---
 layout: page
 title: Affiliate Meetups — Aalto Machine Learning Group
 permalink: /meetups/
@@ -199,7 +206,6 @@ Our bi-weekly online seminar for affiliates and friends of the community.
 
 Interested in presenting? Propose a 20–25 min talk (email to first dot last...)
 """
-
     TARGET_FILE.write_text(updated, encoding="utf-8")
 
 
