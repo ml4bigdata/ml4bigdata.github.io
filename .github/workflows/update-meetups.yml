@@ -5,6 +5,9 @@ on:
     - cron: "0 6 * * *"   # run daily at 06:00 UTC
   workflow_dispatch:       # allow manual runs
 
+permissions:
+  contents: write   # 👈 add this block
+
 jobs:
   update-meetups:
     runs-on: ubuntu-latest
