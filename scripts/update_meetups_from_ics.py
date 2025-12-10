@@ -2,17 +2,17 @@
 import os
 from datetime import datetime
 from pathlib import Path
+from collections import defaultdict
 
 import requests
 from icalendar import Calendar
 import pytz
-from collections import defaultdict
 
 # --- config ---
 
 ICS_URL_ENV = "OUTLOOK_ICS_URL"
 TARGET_FILE = Path("meetups12.md")  # adapt if it's e.g. meetups/index.md
-SECTION_HEADER = "## Current & upcoming"  # we reuse this anchor in the file
+SECTION_HEADER = "## Current & upcoming"  # anchor text in your markdown
 TZ = pytz.timezone("Europe/Helsinki")
 
 
@@ -48,18 +48,35 @@ def extract_events(cal: Calendar):
         summary = str(component.get("summary", "")).strip()
         location = str(component.get("location", "")).strip()
 
-        # Try to find a useful URL in URL / description fields
+        # --- URL detection ---
+
         url = None
-        for field in ("url", "X-ALT-DESC", "description"):
-            v = component.get(field)
-            if v:
-                text = str(v)
-                for token in text.split():
-                    if token.startswith("http://") or token.startswith("https://"):
-                        url = token
-                        break
-            if url:
-                break
+
+        # 1) Check if LOCATION is a YouTube or Zoom URL
+        if location:
+            loc_lower = location.lower()
+            if (
+                "youtu.be" in loc_lower
+                or "youtube.com" in loc_lower
+                or "zoom.us" in loc_lower
+                or "zoom.com" in loc_lower
+                or "aalto.zoom" in loc_lower
+            ):
+                url = location.strip()
+
+        # 2) If no URL yet, search in URL / X-ALT-DESC / DESCRIPTION fields
+        if not url:
+            for field in ("url", "X-ALT-DESC", "description"):
+                v = component.get(field)
+                if v:
+                    text = str(v)
+                    for token in text.split():
+                        token = token.strip()
+                        if token.startswith("http://") or token.startswith("https://"):
+                            url = token
+                            break
+                if url:
+                    break
 
         events.append((dt, summary, location, url))
 
@@ -88,6 +105,8 @@ def split_upcoming_past(events):
 def format_link_label(url: str) -> str:
     """Choose a nice label based on the URL."""
     u = url.lower()
+    if "zoom" in u:
+        return "💻 Zoom"
     if "youtu" in u or "youtube" in u:
         return "🎥 Recording"
     if "slides" in u or u.endswith(".pdf") or u.endswith(".pptx") or u.endswith(".ppt"):
@@ -97,11 +116,17 @@ def format_link_label(url: str) -> str:
 
 def format_bullet(ev):
     dt, summary, location, url = ev
-    # e.g. "8 Aug 2025 — Title (Location) · [🎥 Recording](...)"
-    date_str = dt.strftime("%-d %b %Y")  # if this breaks on macOS, use "%d %b %Y"
+    # Example: "8 Aug 2025 — Title (Location) · [🎥 Recording](...)"
+    # On some systems, "%-d" may not work; use "%d" if needed
+    try:
+        date_str = dt.strftime("%-d %b %Y")
+    except ValueError:
+        date_str = dt.strftime("%d %b %Y")
 
     text = summary or "(No title)"
-    if location:
+
+    # Avoid printing the location if it's exactly the URL (e.g. YouTube/Zoom in location)
+    if location and (not url or location.strip() != url.strip()):
         text += f" ({location})"
 
     if url:
@@ -162,7 +187,10 @@ def update_meetups_file(section_markdown: str):
         before, sep, after = text.partition(SECTION_HEADER)
         body, sep2, rest = after.partition("* * *")
 
-        updated = before + section_markdown + ("\n* * *" + rest if sep2 else "")
+        if sep2:
+            updated = before + section_markdown + "\n* * *" + rest
+        else:
+            updated = before + section_markdown
     else:
         # Create a minimal page from scratch
         updated = f"""---
