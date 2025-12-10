@@ -12,7 +12,7 @@ import pytz
 
 ICS_URL_ENV = "OUTLOOK_ICS_URL"
 TARGET_FILE = Path("_pages/meetups.md")  # adapt if it's e.g. meetups/index.md
-SECTION_HEADER = "## Current & upcoming"  # anchor text in your markdown
+SECTION_HEADER = ""  # anchor text in your markdown
 TZ = pytz.timezone("Europe/Helsinki")
 
 
@@ -145,7 +145,7 @@ def render_section_markdown(upcoming, past) -> str:
     parts.append("")
 
     # --- Upcoming ---
-    parts.append("### Upcoming")
+    parts.append("## Upcoming")
     if upcoming:
         for ev in upcoming:
             parts.append(format_bullet(ev))
@@ -154,7 +154,7 @@ def render_section_markdown(upcoming, past) -> str:
     parts.append("")
 
     # --- Past events, grouped by year ---
-    parts.append("### Past events")
+    parts.append("## Past events")
     if past:
         events_by_year = defaultdict(list)
         for ev in past:
@@ -207,7 +207,7 @@ Our bi-weekly online seminar for affiliates and friends of the community.
 
 * * *
 
-Interested in presenting? Propose a 20–25 min talk (plus Q&A) when you register.
+Interested in presenting? Propose a 20–25 min talk (email to first dot last...)
 """
 
     TARGET_FILE.write_text(updated, encoding="utf-8")
