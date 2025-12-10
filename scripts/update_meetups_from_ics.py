@@ -141,8 +141,8 @@ def render_section_markdown(upcoming, past) -> str:
     parts = []
 
     # Keep the original header text as anchor
-    parts.append(SECTION_HEADER)
-    parts.append("")
+   # parts.append(SECTION_HEADER)
+   # parts.append("")
 
     # --- Upcoming ---
     parts.append("## Upcoming")
@@ -182,16 +182,6 @@ def update_meetups_file(section_markdown: str):
     else:
         text = ""
 
-    if SECTION_HEADER in text:
-        # Patch existing section between SECTION_HEADER and first "* * *"
-        before, sep, after = text.partition(SECTION_HEADER)
-        body, sep2, rest = after.partition("* * *")
-
-        if sep2:
-            updated = before + section_markdown + "\n* * *" + rest
-        else:
-            updated = before + section_markdown
-    else:
         # Create a minimal page from scratch
         updated = f"""---
 layout: page
