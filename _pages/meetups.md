@@ -8,13 +8,11 @@ Our bi-weekly online seminar for affiliates and friends of the community.
 
 * * *
 
-## Current & upcoming
-
-### Upcoming
+## Upcoming
 * 12 Dec 2025 — Right to Explainability of AI · [💻 Zoom](https://aalto.zoom.us/j/67575810465)
 * 9 Jan 2026 — Aalto ML Meetup · [💻 Zoom](https://aalto.zoom.us/j/67575810465)
 
-### Past events
+## Past events
 #### 2025
 * 28 Nov 2025 — Shamsiiat Abdurakhmanova: Federated Soft Clustering · [🎥 Recording](https://youtu.be/Hha6k6JFo_8?si=dLFEuJ2d9qCzhJte)
 * 14 Nov 2025 — Virve Karsisto: Post-processing road surface temperature forecast with XGBoost · [🎥 Recording](https://youtu.be/IozLj2Wg2Sw?si=J_jP1B2vldmASJNR)
@@ -29,4 +27,4 @@ Our bi-weekly online seminar for affiliates and friends of the community.
 
 * * *
 
-Interested in presenting? Propose a 20–25 min talk (plus Q&A) when you register.
+Interested in presenting? Propose a 20–25 min talk (email to first dot last...)
