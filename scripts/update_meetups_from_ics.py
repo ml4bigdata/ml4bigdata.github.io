@@ -6,12 +6,13 @@ from pathlib import Path
 import requests
 from icalendar import Calendar
 import pytz
+from collections import defaultdict
 
 # --- config ---
 
 ICS_URL_ENV = "OUTLOOK_ICS_URL"
 TARGET_FILE = Path("meetups12.md")  # adapt if it's e.g. meetups/index.md
-SECTION_HEADER = "## Current & upcoming"
+SECTION_HEADER = "## Current & upcoming"  # we reuse this anchor in the file
 TZ = pytz.timezone("Europe/Helsinki")
 
 
@@ -47,13 +48,12 @@ def extract_events(cal: Calendar):
         summary = str(component.get("summary", "")).strip()
         location = str(component.get("location", "")).strip()
 
-        # Optional: use Outlook "Online meeting" URL / description URL if present
+        # Try to find a useful URL in URL / description fields
         url = None
         for field in ("url", "X-ALT-DESC", "description"):
             v = component.get(field)
             if v:
                 text = str(v)
-                # naive heuristic: grab first http(s) link if any
                 for token in text.split():
                     if token.startswith("http://") or token.startswith("https://"):
                         url = token
@@ -66,44 +66,121 @@ def extract_events(cal: Calendar):
     return events
 
 
-def filter_and_sort_upcoming(events):
+def split_upcoming_past(events):
+    """Split into upcoming (dt >= now) and past (dt < now)."""
     now = datetime.now(TZ)
-    upcoming = [e for e in events if e[0] >= now]
+    upcoming = []
+    past = []
+    for ev in events:
+        if ev[0] >= now:
+            upcoming.append(ev)
+        else:
+            past.append(ev)
+
+    # Upcoming: chronological (soonest first)
     upcoming.sort(key=lambda e: e[0])
-    return upcoming
+    # Past: reverse chronological (latest first)
+    past.sort(key=lambda e: e[0], reverse=True)
+
+    return upcoming, past
+
+
+def format_link_label(url: str) -> str:
+    """Choose a nice label based on the URL."""
+    u = url.lower()
+    if "youtu" in u or "youtube" in u:
+        return "🎥 Recording"
+    if "slides" in u or u.endswith(".pdf") or u.endswith(".pptx") or u.endswith(".ppt"):
+        return "📝 Slides"
+    return "🔗 Link"
 
 
 def format_bullet(ev):
     dt, summary, location, url = ev
-    # Example: "8 Aug 2025 — Mahsa Asadi: Personalized Mean Estimation · [YouTube](...)"
-    date_str = dt.strftime("%-d %b %Y")  # Linux; if this breaks on mac, use "%d %b %Y"
+    # e.g. "8 Aug 2025 — Title (Location) · [🎥 Recording](...)"
+    date_str = dt.strftime("%-d %b %Y")  # if this breaks on macOS, use "%d %b %Y"
 
-    # Very simple parsing convention:
-    # you can encode "Speaker: Title" in the Outlook event title,
-    # or just show the raw summary.
-    text = summary
+    text = summary or "(No title)"
+    if location:
+        text += f" ({location})"
+
     if url:
-        return f"* {date_str} — {text} · [Link]({url})"
+        label = format_link_label(url)
+        return f"* {date_str} — {text} · [{label}]({url})"
     else:
         return f"* {date_str} — {text}"
 
 
-def update_meetups_file(bullets):
-    text = TARGET_FILE.read_text(encoding="utf-8")
+def render_section_markdown(upcoming, past) -> str:
+    """Build the entire markdown block that will replace the section."""
+    parts = []
 
-    before, sep, after = text.partition(SECTION_HEADER)
-    if not sep:
-        raise RuntimeError(f"Could not find section header '{SECTION_HEADER}' in {TARGET_FILE}")
+    # Keep the original header text as anchor
+    parts.append(SECTION_HEADER)
+    parts.append("")
 
-    # Keep everything after header until the next horizontal rule or blank block.
-    # Easiest: split `after` on first '* * *' which you seem to use.
-    body, sep2, rest = after.partition("* * *")
-
-    new_section = SECTION_HEADER + "\n" + "\n".join(bullets) + "\n"
-    if sep2:
-        updated = before + new_section + "* * *" + rest
+    # --- Upcoming ---
+    parts.append("### Upcoming")
+    if upcoming:
+        for ev in upcoming:
+            parts.append(format_bullet(ev))
     else:
-        updated = before + new_section
+        parts.append("_No upcoming meetups scheduled. Stay tuned!_")
+    parts.append("")
+
+    # --- Past events, grouped by year ---
+    parts.append("### Past events")
+    if past:
+        events_by_year = defaultdict(list)
+        for ev in past:
+            year = ev[0].year
+            events_by_year[year].append(ev)
+
+        # Show most recent years first
+        for year in sorted(events_by_year.keys(), reverse=True):
+            parts.append(f"#### {year}")
+            # within each year: keep reverse chronological
+            year_events = sorted(events_by_year[year], key=lambda e: e[0], reverse=True)
+            for ev in year_events:
+                parts.append(format_bullet(ev))
+            parts.append("")  # blank line between years
+    else:
+        parts.append("_No past events yet._")
+
+    parts.append("")  # final newline
+    return "\n".join(parts)
+
+
+def update_meetups_file(section_markdown: str):
+    if TARGET_FILE.exists():
+        text = TARGET_FILE.read_text(encoding="utf-8")
+    else:
+        text = ""
+
+    if SECTION_HEADER in text:
+        # Patch existing section between SECTION_HEADER and first "* * *"
+        before, sep, after = text.partition(SECTION_HEADER)
+        body, sep2, rest = after.partition("* * *")
+
+        updated = before + section_markdown + ("\n* * *" + rest if sep2 else "")
+    else:
+        # Create a minimal page from scratch
+        updated = f"""---
+layout: page
+title: Affiliate Meetups — Aalto Machine Learning Group
+permalink: /meetups12/
+---
+
+Our bi-weekly online seminar for affiliates and friends of the community.
+
+* * *
+
+{section_markdown}
+
+* * *
+
+Interested in presenting? Propose a 20–25 min talk (plus Q&A) when you register.
+"""
 
     TARGET_FILE.write_text(updated, encoding="utf-8")
 
@@ -115,10 +192,10 @@ def main():
 
     cal = fetch_calendar(ics_url)
     events = extract_events(cal)
-    upcoming = filter_and_sort_upcoming(events)
+    upcoming, past = split_upcoming_past(events)
 
-    bullets = [format_bullet(ev) for ev in upcoming]
-    update_meetups_file(bullets)
+    section_md = render_section_markdown(upcoming, past)
+    update_meetups_file(section_md)
 
 
 if __name__ == "__main__":
