@@ -23,6 +23,10 @@ TARGET_FILE = Path("_pages/meetups.md")  # adapt if it's e.g. meetups/index.md
 SECTION_HEADER = ""  # anchor text in your markdown
 TZ = pytz.timezone("Europe/Helsinki")
 
+YOUTUBE_PLAYLIST_URL = (
+    "https://youtube.com/playlist?list=PLrbn2dGrLJK8wsi_vpr94Gzas7TzUsFNh&si=Y3bRndboTqN8zOc_"
+)
+
 
 def fetch_calendar(url: str) -> Calendar:
     resp = requests.get(url)
@@ -31,7 +35,7 @@ def fetch_calendar(url: str) -> Calendar:
 
 
 def extract_events(cal: Calendar):
-    """Return list of (start_dt_aware, summary, location, url) for events."""
+    """Return list of (start_dt_aware, summary, location, url, description) for events."""
     events = []
 
     for component in cal.walk():
@@ -86,7 +90,10 @@ def extract_events(cal: Calendar):
                 if url:
                     break
 
-        events.append((dt, summary, location, url))
+        # Description text (may be long; keep as-is for now)
+        description = str(component.get("description", "")).strip()
+
+        events.append((dt, summary, location, url, description))
 
     return events
 
@@ -122,14 +129,21 @@ def format_link_label(url: str) -> str:
     return "🔗 Link"
 
 
-def format_bullet(ev):
-    dt, summary, location, url = ev
+def _clean_description(desc: str) -> str:
+    """Collapse whitespace in description for nicer single-paragraph rendering."""
+    if not desc:
+        return ""
+    # Replace newlines and multiple spaces with single spaces
+    return " ".join(desc.split())
+
+
+def format_bullet(ev, include_description: bool = False) -> str:
+    dt, summary, location, url, description = ev
     # Example: "8 Aug 2025 — Title (Location) · [🎥 Recording](...)"
-    # On some systems, "%-d" may not work; use "%d" if needed
     try:
-        date_str = dt.strftime("%-d %b %Y")
+        date_str = dt.strftime("%-d %b %Y")  # Unix-like
     except ValueError:
-        date_str = dt.strftime("%d %b %Y")
+        date_str = dt.strftime("%d %b %Y")   # Windows fallback
 
     text = summary or "(No title)"
 
@@ -139,33 +153,59 @@ def format_bullet(ev):
 
     if url:
         label = format_link_label(url)
-        return f"* {date_str} — {text} · [{label}]({url})"
+        line = f"* {date_str} — {text} · [{label}]({url})"
     else:
-        return f"* {date_str} — {text}"
+        line = f"* {date_str} — {text}"
+
+    if include_description:
+        desc_clean = _clean_description(description)
+        if desc_clean:
+            # Indent by 4 spaces so it appears as a paragraph under the list item in Markdown
+            line += f"\n    {desc_clean}"
+
+    return line
 
 
-def render_section_markdown(upcoming, past) -> str:
+def render_section_markdown(upcoming, past, ics_url: str) -> str:
     """Build the entire markdown block that will replace the section."""
     parts = []
 
-    # Keep the original header text as anchor
-   # parts.append(SECTION_HEADER)
-   # parts.append("")
+    # --- ICS subscription link ---
+    parts.append("### 📅 Subscribe to our calendar")
+    parts.append(
+        f"[Click here to subscribe to the Aalto ML Affiliate Meetup calendar]({ics_url})"
+    )
+    parts.append("")
+    parts.append(
+        "*Add this link to Google Calendar, Apple Calendar, Outlook, or any calendar app.*"
+    )
+    parts.append("")
+    parts.append("---")
+    parts.append("")
 
     # --- Upcoming ---
     parts.append("## Upcoming")
     if upcoming:
         for ev in upcoming:
-            parts.append(format_bullet(ev))
+            # For upcoming events, also show the description text (if any)
+            parts.append(format_bullet(ev, include_description=True))
     else:
         parts.append("_No upcoming meetups scheduled. Stay tuned!_")
     parts.append("")
 
-    # --- Past events, grouped by year ---
+    # --- Past events (limit to 3 most recent) ---
     parts.append("## Past events")
+    parts.append(
+        f"For the full archive of recordings, see our [YouTube playlist]({YOUTUBE_PLAYLIST_URL})."
+    )
+    parts.append("")
+
     if past:
+        # Keep only the 3 most recent past events
+        limited_past = past[:3]
+
         events_by_year = defaultdict(list)
-        for ev in past:
+        for ev in limited_past:
             year = ev[0].year
             events_by_year[year].append(ev)
 
@@ -175,7 +215,8 @@ def render_section_markdown(upcoming, past) -> str:
             # within each year: keep reverse chronological
             year_events = sorted(events_by_year[year], key=lambda e: e[0], reverse=True)
             for ev in year_events:
-                parts.append(format_bullet(ev))
+                # For past events, we keep the compact format without descriptions
+                parts.append(format_bullet(ev, include_description=False))
             parts.append("")  # blank line between years
     else:
         parts.append("_No past events yet._")
@@ -185,11 +226,6 @@ def render_section_markdown(upcoming, past) -> str:
 
 
 def update_meetups_file(section_markdown: str):
-    if TARGET_FILE.exists():
-        text = TARGET_FILE.read_text(encoding="utf-8")
-    else:
-        text = ""
-      # Create a minimal page from scratch
     updated = f"""---
 layout: page
 title: Affiliate Meetups — Aalto Machine Learning Group
@@ -210,7 +246,7 @@ Interested in presenting? Propose a 20–25 min talk (email to first dot last...
 
 
 def main():
-    ics_url = os.getenv(ICS_URL_ENV)
+    ics_url = "https://outlook.office365.com/owa/calendar/717f97a819e846ce9ba3333552f2b2b9@aalto.fi/94f082defbce42a39f4f0a8125c6c8322669307906715889367/calendar.ics"
     if not ics_url:
         raise SystemExit(f"Environment variable {ICS_URL_ENV} not set")
 
@@ -218,7 +254,7 @@ def main():
     events = extract_events(cal)
     upcoming, past = split_upcoming_past(events)
 
-    section_md = render_section_markdown(upcoming, past)
+    section_md = render_section_markdown(upcoming, past, ics_url)
     update_meetups_file(section_md)
 
 
