@@ -2,7 +2,9 @@ name: Update meetups page from Outlook calendar
 
 on:
   schedule:
-    - cron: "0 6 * * *"   # run daily at 06:00 UTC
+    - cron: "0 6 * * *"    # run daily at 06:00 UTC
+    - cron: "0 12 * * *"   # run daily at 12:00 UTC
+    - cron: "0 18 * * *"   # run daily at 18:00 UTC
   workflow_dispatch:       # allow manual runs
 
 permissions:
