@@ -16,16 +16,15 @@ Our bi-weekly online seminar for affiliates and friends of the community.
 ---
 
 ## Upcoming
-* 12 Dec 2025 — Diana Pfau - Right to Explainability of AI · [💻 Zoom](https://aalto.zoom.us/j/62824564124)
 * 9 Jan 2026 — Lasse Leskelä - Consistent spectral clustering in sparse tensor block models · [💻 Zoom](https://aalto.zoom.us/j/62824564124)
 
 ## Past events
 For the full archive of recordings, see our [YouTube playlist](https://youtube.com/playlist?list=PLrbn2dGrLJK8wsi_vpr94Gzas7TzUsFNh&si=Y3bRndboTqN8zOc_).
 
 #### 2025
+* 12 Dec 2025 — Diana Pfau - Right to Explainability of AI · [💻 Zoom](https://aalto.zoom.us/j/62824564124)
 * 28 Nov 2025 — Shamsiiat Abdurakhmanova: Federated Soft Clustering · [🎥 Recording](https://youtu.be/Hha6k6JFo_8?si=dLFEuJ2d9qCzhJte)
 * 14 Nov 2025 — Virve Karsisto: Post-processing road surface temperature forecast with XGBoost · [🎥 Recording](https://youtu.be/IozLj2Wg2Sw?si=J_jP1B2vldmASJNR)
-* 31 Oct 2025 — Alex Jung: Federated Clustering via Generalized Total Variation · [🎥 Recording](https://youtu.be/BZs71pIicJo?si=77PqtkqiV3-IysDQ)
 
 
 
