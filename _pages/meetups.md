@@ -17,7 +17,7 @@ Our bi-weekly online seminar for affiliates and friends of the community.
 
 ## Upcoming
 * 9 Jan 2026 — Lasse Leskelä - Consistent spectral clustering in sparse tensor block models · [💻 Zoom](https://aalto.zoom.us/j/62824564124)
-* 23 Jan 2026 — Matilde Tristany Farinha · [💻 Zoom](https://aalto.zoom.us/j/62824564124)
+* 23 Jan 2026 — Matilde Tristany Farinha - Bio-Plausible Learning for ANNs · [💻 Zoom](https://aalto.zoom.us/j/62824564124)
 
 ## Past events
 For the full archive of recordings, see our [YouTube playlist](https://youtube.com/playlist?list=PLrbn2dGrLJK8wsi_vpr94Gzas7TzUsFNh&si=Y3bRndboTqN8zOc_).
