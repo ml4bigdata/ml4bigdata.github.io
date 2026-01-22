@@ -18,6 +18,7 @@ Our bi-weekly online seminar for affiliates and friends of the community.
 ## Upcoming
 * 23 Jan 2026 — Matilde Tristany Farinha - Bio-Plausible Learning for ANNs · [💻 Zoom](https://aalto.zoom.us/j/62824564124)
 * 6 Feb 2026 — Rawed Bitar - Coding Theory Meets Federated Learning · [💻 Zoom](https://aalto.zoom.us/j/62824564124)
+* 3 Apr 2026 — Webinar - TBD
 
 ## Past events
 For the full archive of recordings, see our [YouTube playlist](https://youtube.com/playlist?list=PLrbn2dGrLJK8wsi_vpr94Gzas7TzUsFNh&si=Y3bRndboTqN8zOc_).
