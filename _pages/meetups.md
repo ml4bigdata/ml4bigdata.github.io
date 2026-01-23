@@ -16,7 +16,6 @@ Our bi-weekly online seminar for affiliates and friends of the community.
 ---
 
 ## Upcoming
-* 23 Jan 2026 — Matilde Tristany Farinha - Bio-Plausible Learning for ANNs · [💻 Zoom](https://aalto.zoom.us/j/62824564124)
 * 6 Feb 2026 — Rawed Bitar - Coding Theory Meets Federated Learning · [💻 Zoom](https://aalto.zoom.us/j/62824564124)
 * 3 Apr 2026 — Webinar - TBD
 
@@ -24,11 +23,11 @@ Our bi-weekly online seminar for affiliates and friends of the community.
 For the full archive of recordings, see our [YouTube playlist](https://youtube.com/playlist?list=PLrbn2dGrLJK8wsi_vpr94Gzas7TzUsFNh&si=Y3bRndboTqN8zOc_).
 
 #### 2026
+* 23 Jan 2026 — Matilde Tristany Farinha - Bio-Plausible Learning for ANNs · [💻 Zoom](https://aalto.zoom.us/j/62824564124)
 * 9 Jan 2026 — Lasse Leskelä - Consistent spectral clustering in sparse tensor block models · [💻 Zoom](https://aalto.zoom.us/j/62824564124)
 
 #### 2025
 * 12 Dec 2025 — Diana Pfau - Right to Explainability of AI · [🎥 Recording](https://youtu.be/fxItie_eFaY?si=bfkafhF0TZW3BdYQ)
-* 28 Nov 2025 — Shamsiiat Abdurakhmanova: Federated Soft Clustering · [🎥 Recording](https://youtu.be/Hha6k6JFo_8?si=dLFEuJ2d9qCzhJte)
 
 
 
