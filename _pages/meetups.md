@@ -17,6 +17,7 @@ Our bi-weekly online seminar for affiliates and friends of the community.
 
 ## Upcoming
 * 6 Feb 2026 — Rawed Bitar - Coding Theory Meets Federated Learning · [💻 Zoom](https://aalto.zoom.us/j/62824564124)
+* 27 Feb 2026 — Limits of Current Safety Methods and Emerging Alternatives for controlling LLM behaviour · [💻 Zoom](https://aalto.zoom.us/j/62824564124)
 * 3 Apr 2026 — Webinar - TBD
 
 ## Past events
