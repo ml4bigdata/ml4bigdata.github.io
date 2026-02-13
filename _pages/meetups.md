@@ -17,7 +17,7 @@ Our bi-weekly online seminar for affiliates and friends of the community.
 
 ## Upcoming
 * 27 Feb 2026 — Limits of Current Safety Methods and Emerging Alternatives for controlling LLM behaviour · [💻 Zoom](https://aalto.zoom.us/j/62824564124)
-* 3 Apr 2026 — Webinar - TBD
+* 10 Apr 2026 — Sanna Oinas - How Finnish basic education prepares students’ data agency?
 
 ## Past events
 For the full archive of recordings, see our [YouTube playlist](https://youtube.com/playlist?list=PLrbn2dGrLJK8wsi_vpr94Gzas7TzUsFNh&si=Y3bRndboTqN8zOc_).
