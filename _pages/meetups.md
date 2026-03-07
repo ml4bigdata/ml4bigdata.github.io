@@ -16,6 +16,7 @@ Our bi-weekly online seminar for affiliates and friends of the community.
 ---
 
 ## Upcoming
+* 13 Mar 2026 — Diana Pfau - Terminology in the AI Act · [💻 Zoom](https://aalto.zoom.us/j/62824564124)
 * 10 Apr 2026 — Sanna Oinas - How Finnish basic education prepares students’ data agency?
 
 ## Past events
