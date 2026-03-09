@@ -67,18 +67,8 @@ title: Team members  # Page title
   _Thesis Topic: [To be updated]_  
   Email: [heikki.myllykoski@aalto.fi](mailto:heikki.myllykoski@aalto.fi)
 
-### Research Assistants
-
-- **Henri Valimaki**  
-  _Thesis Topic: [To be updated]_  
-  Email: [henri.valimaki@aalto.fi](mailto:henri.valimaki@aalto.fi)
-
 ### Teaching Assistants
 
-- **Alexander Pavlyuk**  
-  _Thesis Topic: [To be updated]_  
+- **Alexander Pavlyuk**
+  _Thesis Topic: [To be updated]_
   Email: [alexander.pavlyuk@aalto.fi](mailto:alexander.pavlyuk@aalto.fi)
-
-- **Bo Zheng**  
-  _Thesis Topic: [To be updated]_  
-  Email: [bo.zheng@aalto.fi](mailto:bo.zheng@aalto.fi)
