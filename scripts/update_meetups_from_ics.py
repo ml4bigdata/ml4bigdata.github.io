@@ -172,13 +172,20 @@ def render_section_markdown(upcoming, past, ics_url: str) -> str:
 
     # --- ICS subscription link ---
     parts.append("### 📅 Subscribe to our calendar")
-    parts.append(
-        f"[Click here to subscribe to the Aalto ML Affiliate Meetup calendar]({ics_url})"
-    )
     parts.append("")
     parts.append(
-        "*Add this link to Google Calendar, Apple Calendar, Outlook, or any calendar app.*"
+        "> ⚠️ **Do not just click the link below.** "
+        "Clicking it will cause your browser to download a one-time snapshot of the calendar as a file — "
+        "it will not stay up to date. "
+        "Instead, **copy the URL and paste it into your calendar app** as a calendar subscription."
     )
+    parts.append("")
+    parts.append("How to subscribe by URL:")
+    parts.append("- **Google Calendar:** click the **+** next to *Other calendars* → *From URL* → paste the link")
+    parts.append("- **Apple Calendar:** *File* → *New Calendar Subscription* → paste the link")
+    parts.append("- **Outlook:** *Add calendar* → *Subscribe from web* → paste the link")
+    parts.append("")
+    parts.append(f"Calendar URL (copy this): `{ics_url}`")
     parts.append("")
     parts.append("---")
     parts.append("")
@@ -211,7 +218,7 @@ def render_section_markdown(upcoming, past, ics_url: str) -> str:
 
         # Show most recent years first
         for year in sorted(events_by_year.keys(), reverse=True):
-            parts.append(f"#### {year}")
+            parts.append(f"### {year}")
             # within each year: keep reverse chronological
             year_events = sorted(events_by_year[year], key=lambda e: e[0], reverse=True)
             for ev in year_events:

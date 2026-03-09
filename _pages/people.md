@@ -15,7 +15,7 @@ title: Team members  # Page title
 
 - [**Ekkehard Schnoor**](/ekkehard_schnoor/) <br>
   Research Focus: Generalization and Explainability in Machine Learning <br>
-  Email: [ekkehard.schnoor@aalto.fi](mailto:schnoor@mathc.rwth-aachen.de)
+  Email: [ekkehard.schnoor@aalto.fi](mailto:ekkehard.schnoor@aalto.fi)
 
 - [**Mahsa Asadi**](/mahsa_asadi/) <br>
   Research Focus: TBA <br>
