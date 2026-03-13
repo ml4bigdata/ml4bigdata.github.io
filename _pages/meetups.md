@@ -22,16 +22,15 @@ Calendar URL (copy this): `https://outlook.office365.com/owa/calendar/717f97a819
 ---
 
 ## Upcoming
-* 13 Mar 2026 — Diana Pfau - Terminology in the AI Act · [💻 Zoom](https://aalto.zoom.us/j/62824564124)
 * 10 Apr 2026 — Sanna Oinas - How Finnish basic education prepares students’ data agency?
 
 ## Past events
 For the full archive of recordings, see our [YouTube playlist](https://youtube.com/playlist?list=PLrbn2dGrLJK8wsi_vpr94Gzas7TzUsFNh&si=Y3bRndboTqN8zOc_).
 
 ### 2026
+* 13 Mar 2026 — Diana Pfau - Terminology in the AI Act · [💻 Zoom](https://aalto.zoom.us/j/62824564124)
 * 27 Feb 2026 — Limits of Current Safety Methods and Emerging Alternatives for controlling LLM behaviour · [🎥 Recording](https://youtube.com/playlist?list=PLrbn2dGrLJK8wsi_vpr94Gzas7TzUsFNh&si=S6xKc5SJJLh_GF0z)
 * 6 Feb 2026 — Rawed Bitar - Coding Theory Meets Federated Learning · [🎥 Recording](https://youtube.com/playlist?list=PLrbn2dGrLJK8wsi_vpr94Gzas7TzUsFNh&si=S6xKc5SJJLh_GF0z)
-* 23 Jan 2026 — Matilde Tristany Farinha - Bio-Plausible Learning for ANNs · [🎥 Recording](https://youtube.com/playlist?list=PLrbn2dGrLJK8wsi_vpr94Gzas7TzUsFNh&si=S6xKc5SJJLh_GF0z)
 
 
 
