@@ -22,7 +22,7 @@ Calendar URL (copy this): `https://outlook.office365.com/owa/calendar/717f97a819
 ---
 
 ## Upcoming
-* 10 Apr 2026 — Sanna Oinas - How Finnish basic education prepares students’ data agency? · [💻 Zoom](https://aalto.zoom.us/j/62824564124)
+* 10 Apr 2026 — Sanna Oinas - How Finnish basic education prepares students data agency? · [💻 Zoom](https://aalto.zoom.us/j/62824564124)
 
 ## Past events
 For the full archive of recordings, see our [YouTube playlist](https://youtube.com/playlist?list=PLrbn2dGrLJK8wsi_vpr94Gzas7TzUsFNh&si=Y3bRndboTqN8zOc_).
