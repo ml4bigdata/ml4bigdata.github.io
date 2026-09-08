@@ -16,7 +16,8 @@ Our research focuses on **machine learning models that respect human agency, ove
 <div class="book-row" style="display:flex; gap:20px; margin-bottom:2rem; align-items:flex-start;">
   <div>
     <img src="/assets/images/MLbook.png" alt="Machine Learning: The Basics — cover" style="width:220px; border-radius:12px;">
-    <p><a href="https://link.springer.com/book/10.1007/978-981-16-8193-6" target="_blank">Publisher page ↗</a></p>
+    <p><a href="https://mlbook.aalto.fi" target="_blank">mlbook.aalto.fi ↗</a><br>
+       <a href="https://mlbook.aalto.fi/pdf" target="_blank">Free draft PDF ↗</a></p>
   </div>
   <div class="book-text">
     <h2>Machine Learning: The Basics</h2>
@@ -33,11 +34,12 @@ Our research focuses on **machine learning models that respect human agency, ove
 <div class="book-row" style="display:flex; gap:20px; margin-bottom:2rem; align-items:flex-start;">
   <div>
     <img src="/assets/images/FLbook.jpeg" alt="Federated Learning — cover" style="width:220px; border-radius:12px;">
-    <p><a href="https://books.google.fi/books/about/Federated_Learning.html?id=HNR20QEACAAJ&redir_esc=y" target="_blank">Google Books ↗</a></p>
+    <p><a href="https://flbook.aalto.fi" target="_blank">flbook.aalto.fi ↗</a><br>
+       <a href="https://flbook.aalto.fi/pdf" target="_blank">Free draft PDF ↗</a></p>
   </div>
   <div class="book-text">
     <h2>Federated Learning — From Theory to Practice</h2>
-    <p><strong>Author:</strong> Alexander Jung · Textbook (forthcoming)</p>
+    <p><strong>Author:</strong> Alexander Jung · Springer, 2026</p>
     <p>Principles, algorithms, systems, and real-world case studies for practical federated learning.</p>
     <ul>
       <li>From fundamentals to deployment: objectives, personalization, privacy, and robustness.</li>
@@ -50,7 +52,7 @@ Our research focuses on **machine learning models that respect human agency, ove
 <div class="book-row" style="display:flex; gap:20px; margin-bottom:2rem; align-items:flex-start;">
   <div>
     <img src="/assets/images/dict.png" alt="Aalto Dictionary of ML — cover" style="width:220px; border-radius:12px;">
-    <p><a href="https://aaltodictionaryofml.github.io" target="_blank">View Online ↗</a></p>
+    <p><a href="https://dictionaryofml.aalto.fi" target="_blank">dictionaryofml.aalto.fi ↗</a></p>
   </div>
   <div class="book-text">
     <h2>Aalto Dictionary of Machine Learning</h2>

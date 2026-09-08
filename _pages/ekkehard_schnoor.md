@@ -24,7 +24,7 @@ Before joining Aalto University, I was a member of the <a href="https://www.hhi.
 Prior to this, I obtained my PhD in mathematics from RWTH Aachen University under supervision of <a href="https://scholar.google.com/citations?user=KA2BM_UAAAAJ&hl=en" target="_blank" rel="noopener">Holger Rauhut</a> for my <a href="https://publications.rwth-aachen.de/record/1012246" target="_blank" rel="noopener">dissertation</a> in statistical learning theory, at the intersection of compressive sensing and deep learning.
 The overall goal of my research is to establish rigorous performance guarantees for high-dimensional machine learning, typically drawing on tools from high-dimensional probability and
 leveraging on the concentration of measure phenomenon. 
-I'm also part of the team behind the <a href="https://aaltodictionaryofml.github.io/" target="_blank" rel="noopener">Aalto Dictionary of Machine Learning</a>. <br><br>
+I'm also part of the team behind the <a href="https://dictionaryofml.aalto.fi/" target="_blank" rel="noopener">Aalto Dictionary of Machine Learning</a>. <br><br>
 
 <a href="https://mathscinet.ams.org/mathscinet/freetools/collab-dist?source=1550644&target=189017" target="_blank" rel="noopener">My Erdös number is 4</a>, via Holger Rauhut, Jürgen Prestin, and Charles Kam-tai Chui.
 </p>
