@@ -2,6 +2,9 @@
 layout: page
 title: "Teaching"
 permalink: /teaching/
+description: >-
+  How we teach machine learning at Aalto University: data, models and loss,
+  taught through active learning and open course materials.
 ---
 
 # Teaching Machine Learning at Aalto University
@@ -37,7 +40,7 @@ Our courses emphasize **active learning and conceptual clarity** through:
 ## Teaching Philosophy
 
 - **Concise Lectures** – focused on clear learning objectives.  
-- **Curated Resources** – including the textbook [*Machine Learning: The Basics*](https://link.springer.com) by Alex Jung, our [YouTube channel](https://www.youtube.com/@alexjung111), and [GitHub repositories](https://github.com/alexjungaalto).  
+- **Curated Resources** – including the textbook [*Machine Learning: The Basics*](https://mlbook.aalto.fi) by Alex Jung, our [YouTube channel](https://www.youtube.com/@alexjung111), and [GitHub repositories](https://github.com/alexjungaalto).  
 - **Feedback-Adaptive Cycle** – course materials are regularly revised based on student feedback.  
   - Example: [Response letter to student feedback (PDF)](/assets/images/ResponseLetter.pdf)  
 
@@ -62,8 +65,3 @@ Our courses emphasize **active learning and conceptual clarity** through:
 We combine **conceptual clarity** (data, models, loss), **active learning** (projects, peer review, coding exercises), and 
 **constant adaptation** (feedback-driven improvements). Our work has been recognized both in Finland and internationally, 
 and we continue to make our teaching openly available whenever possible.
-
-
-## Keywords
-
-machine learning teaching, data representation, model design, loss functions, interactive learning, project-based assessments, Python notebooks, JupyterHub, Aalto University, teacher of the year, international lecturer

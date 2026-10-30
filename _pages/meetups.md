@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Affiliate Meetups — Aalto Machine Learning Group
+title: "Affiliate Meetups"
 permalink: /meetups/
 ---
 

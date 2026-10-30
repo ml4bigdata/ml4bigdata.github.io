@@ -9,7 +9,8 @@ with particular emphasis on federated learning, explainable AI, and fairness.
 
 Our work connects mathematical foundations with applications in healthcare,
 communications, and other settings where data cannot simply be centralised.
-Meet the [people in our group](/people/) or explore our [current research projects](/research/).
+Meet the [people in our group](/people/), explore our [research](/research/),
+or browse our [publications](/publications/).
 
 ## 🏛️ Research Areas
 - Federated Learning and Privacy-Preserving AI
@@ -19,9 +20,9 @@ Meet the [people in our group](/people/) or explore our [current research projec
 
 ## 📚 Featured Books
 
-<div class="book-row" style="display:flex; gap:20px; margin-bottom:2rem; align-items:flex-start;">
+<div class="book-row">
   <div>
-    <img src="/assets/images/MLbook.png" alt="Machine Learning: The Basics — cover" style="width:220px; border-radius:12px;">
+    <img src="/assets/images/MLbook.png" alt="Machine Learning: The Basics — cover">
     <p><a href="https://mlbook.aalto.fi" target="_blank">mlbook.aalto.fi ↗</a><br>
        <a href="https://mlbook.aalto.fi/pdf" target="_blank">Free draft PDF ↗</a></p>
   </div>
@@ -37,9 +38,9 @@ Meet the [people in our group](/people/) or explore our [current research projec
   </div>
 </div>
 
-<div class="book-row" style="display:flex; gap:20px; margin-bottom:2rem; align-items:flex-start;">
+<div class="book-row">
   <div>
-    <img src="/assets/images/FLbook.jpeg" alt="Federated Learning — cover" style="width:220px; border-radius:12px;">
+    <img src="/assets/images/FLbook.jpeg" alt="Federated Learning — cover">
     <p><a href="https://flbook.aalto.fi" target="_blank">flbook.aalto.fi ↗</a><br>
        <a href="https://flbook.aalto.fi/pdf" target="_blank">Free draft PDF ↗</a></p>
   </div>
@@ -55,9 +56,9 @@ Meet the [people in our group](/people/) or explore our [current research projec
   </div>
 </div>
 
-<div class="book-row" style="display:flex; gap:20px; margin-bottom:2rem; align-items:flex-start;">
+<div class="book-row">
   <div>
-    <img src="/assets/images/dict.png" alt="Aalto Dictionary of ML — cover" style="width:220px; border-radius:12px;">
+    <img src="/assets/images/dict.png" alt="Aalto Dictionary of ML — cover">
     <p><a href="https://dictionaryofml.aalto.fi" target="_blank">dictionaryofml.aalto.fi ↗</a></p>
   </div>
   <div class="book-text">
@@ -73,7 +74,9 @@ Meet the [people in our group](/people/) or explore our [current research projec
 </div>
 
 ## 📢 Open Positions
-We are always looking for motivated researchers! Join us as a **PhD student** or **Post-Doc**, or contact [Professor Alexander Jung](mailto:alex.jung@aalto.fi) for inquiries.
+We are always looking for motivated researchers — as a **doctoral researcher**, a
+**post-doc**, or an Aalto **thesis student**. See [how to join us](/join/), or write
+to [Professor Alexander Jung](mailto:alex.jung@aalto.fi).
 
 ## 🏢 Contact
 📍 Aalto University, Finland  

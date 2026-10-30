@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Team members 
+title: "Mikko Seesto"
 ---
 
 # Mikko Seesto

@@ -3,7 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: page
-title: Team members  # Page title
+title: "Salvatore Rastelli"
 ---
 
 <!-- <div align="center">

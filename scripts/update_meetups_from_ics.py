@@ -235,7 +235,7 @@ def render_section_markdown(upcoming, past, ics_url: str) -> str:
 def update_meetups_file(section_markdown: str):
     updated = f"""---
 layout: page
-title: Affiliate Meetups — Aalto Machine Learning Group
+title: "Affiliate Meetups"
 permalink: /meetups/
 ---
 

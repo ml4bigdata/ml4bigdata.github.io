@@ -63,6 +63,7 @@ body {
 .book-row {
   display: flex;
   align-items: flex-start;  /* align top */
+  flex-wrap: wrap;          /* stack instead of squeezing on narrow screens */
   gap: 20px;                /* space between image and text */
   margin-bottom: 2rem;
 }
@@ -74,7 +75,26 @@ body {
 }
 
 .book-row .book-text {
-  flex: 1;        /* text takes remaining space */
+  flex: 1;
+  min-width: 260px;   /* below this the text wraps under the cover */
+}
+
+/* 🔹 Narrow screens: centre the cover and let everything stack */
+@media screen and (max-width: 600px) {
+  .book-row {
+    justify-content: center;
+    text-align: left;
+  }
+
+  .book-row img {
+    width: 180px;
+  }
+
+  .main-nav .btn {
+    display: inline-block;
+    padding: 0.4rem 0.7rem;
+    font-size: 0.9rem;
+  }
 }
 
 

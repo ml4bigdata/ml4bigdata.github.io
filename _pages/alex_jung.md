@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Team Members — Aalto Machine Learning Research Group
+title: "Alex Jung"
 ---
 
 <div align="center">

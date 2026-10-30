@@ -1,6 +1,10 @@
 ---
 layout: page
-title: Team members  # Page title
+title: "People"
+permalink: /people/
+description: >-
+  Faculty, post-doctoral researchers, doctoral researchers and teaching
+  assistants of the Machine Learning for Big Data group at Aalto University.
 ---
 
 ### Faculty
@@ -59,7 +63,7 @@ title: Team members  # Page title
   _Thesis Topic: [To be updated]_  
   Email: [mikko.kuusakoski@jatke.fi](mailto:mikko.kuusakoski@jatke.fi)
 
-- [**Mikko Partio**](/mikko_partio) <br>  
+- [**Mikko Partio**](/mikko_partio/) <br>  
   _Thesis Topic: [To be updated]_  
   Email: [mikko.partio@aalto.fi](mailto:mikko.partio@aalto.fi)
 
