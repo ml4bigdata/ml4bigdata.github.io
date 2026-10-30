@@ -21,10 +21,6 @@ description: >-
   Research Focus: Generalization and Explainability in Machine Learning <br>
   Email: [ekkehard.schnoor@aalto.fi](mailto:ekkehard.schnoor@aalto.fi)
 
-- [**Mahsa Asadi**](/mahsa_asadi/) <br>
-  Research Focus: TBA <br>
-  Email: [mahsa.asadi@aalto.fi](mailto:mahsa.asadi@aalto.fi)
-
 - [**Shamsi Abdurakhmanova**](/shamsi/) <br>
   Research Focus: Model-agnostic Federated Learning <br>
   Email: [shamsiiat.abdurakhmanova@aalto.fi](mailto:shamsiiat.abdurakhmanova@aalto.fi)
@@ -40,7 +36,7 @@ description: >-
   Email: [xu.1.yang@aalto.fi](mailto:xu.1.yang@aalto.fi)
 
 - [**Salma Rachidi**](/salma_rachidi/)  
-  _Thesis Topic: [To be updated]_  
+  Thesis Topic: Explainable AI for Healthcare  
   Email: [salma.rachidi@aalto.fi](mailto:salma.rachidi@aalto.fi)
 
 - [**Mikko Seesto**](/mikko_seesto/)  
@@ -48,7 +44,7 @@ description: >-
   Email: [mikko.seesto@aalto.fi](mailto:mikko.seesto@aalto.fi)
 
 - [**Vincent Marzillier**](/vincent_marzillier/)
-  _Thesis Topic: [To be updated]_  
+  Thesis Topic: Industrial AI  
   Email: [vincent.marzillier@aalto.fi](mailto:vincent.marzillier@aalto.fi)
 
 - [**Salvatore Rastelli**](/salvatore_rastelli/) <br>
@@ -56,19 +52,19 @@ description: >-
   Email: [salvatore.rastelli@aalto.fi](mailto:salvatore.rastelli@aalto.fi)
 
 - [**Aso Bozorgpanah**](/aso_bozorgpanah/) <br>  
-  _Thesis Topic: [To be updated]_  
+  Thesis Topic: Explainable AI for Healthcare  
   Email: [aso.bozorgpanah@aalto.fi](mailto:aso.bozorgpanah@aalto.fi)
 
 - [**Mikko Kuusakoski**](/mikko_kuusakoski/) <br>  
-  _Thesis Topic: [To be updated]_  
+  Thesis Topic: AI for the Construction Industry  
   Email: [mikko.kuusakoski@jatke.fi](mailto:mikko.kuusakoski@jatke.fi)
 
 - [**Mikko Partio**](/mikko_partio/) <br>  
-  _Thesis Topic: [To be updated]_  
+  Thesis Topic: Trustworthy ML for Weather Forecasting  
   Email: [mikko.partio@aalto.fi](mailto:mikko.partio@aalto.fi)
 
 - [**Heikki Myllykoski**](https://research.aalto.fi/fi/persons/heikki-myllykoski) <br>  
-  _Thesis Topic: [To be updated]_  
+  Thesis Topic: Trustworthy ML for Weather Forecasting  
   Email: [heikki.myllykoski@aalto.fi](mailto:heikki.myllykoski@aalto.fi)
 
 ### Teaching Assistants
