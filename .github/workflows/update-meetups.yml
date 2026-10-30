@@ -49,10 +49,9 @@ jobs:
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
 
-  # A push made with GITHUB_TOKEN does not trigger `on: push`, so the vhost
-  # deploy has to be invoked explicitly here.
-  deploy:
+  # A push made with GITHUB_TOKEN does not trigger `on: push`, so the site
+  # rebuild has to be invoked explicitly here. webfiles then pulls it.
+  publish:
     needs: update-meetups
     if: needs.update-meetups.outputs.changed == 'true'
-    uses: ./.github/workflows/deploy-vhost.yml
-    secrets: inherit
+    uses: ./.github/workflows/publish-site-build.yml

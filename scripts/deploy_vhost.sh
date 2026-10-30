@@ -1,5 +1,9 @@
 #!/usr/bin/env bash
-# Build the site and deploy it to the Aalto vhost (machinelearning.aalto.fi).
+# Build the site and deploy it to the Aalto vhost (machinelearning.aalto.fi)
+# straight from this machine. This is the manual path, for when you want a
+# change live immediately; routine syncing is automatic via the site-build
+# branch (see .github/workflows/publish-site-build.yml) which a cron job on
+# webfiles pulls every 10 minutes.
 #
 # The webroot lives on webfiles.aalto.fi (/l/data/<vhost>), reachable only via
 # the kosh jump host. Both hops use key auth via the "webfiles" alias in

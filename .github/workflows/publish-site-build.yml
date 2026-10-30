@@ -1,0 +1,85 @@
+name: Publish built site to site-build branch
+
+# Builds the Jekyll site and commits the output to the `site-build` branch.
+# A cron job on webfiles.aalto.fi pulls that branch every 10 minutes and
+# rsyncs it into /l/data/machinelearning.aalto.fi, which is what
+# https://machinelearning.aalto.fi serves.
+#
+# Why pull instead of push: kosh.aalto.fi (the only route to webfiles) offers
+# publickey auth exclusively to Aalto source addresses — a GitHub-hosted
+# runner is offered `password` only, so no deploy key can work from here.
+# Pulling keeps every credential inside Aalto; this workflow needs no secrets
+# and only ever writes to this repo via the built-in GITHUB_TOKEN.
+#
+# History on site-build is kept linear (no force pushes) because webfiles runs
+# git 1.8.3.1, which cannot fetch into a shallow or rewritten clone.
+#
+# `workflow_call` exists because pushes made by GITHUB_TOKEN (e.g. the meetups
+# updater) do not trigger `on: push`; update-meetups.yml calls this directly.
+
+on:
+  push:
+    branches: [main]
+  workflow_call:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publish-site-build
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.3"
+          bundler-cache: true
+
+      - name: Build site
+        run: bundle exec jekyll build --destination _site
+
+      - name: Record build provenance
+        run: |
+          printf 'commit: %s\nbuilt: %s\n' \
+            "$GITHUB_SHA" "$(date -u +%Y-%m-%dT%H:%M:%SZ)" > _site/build-info.txt
+
+      - name: Commit output to site-build
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@users.noreply.github.com"
+
+          # Create the branch on first run as an orphan commit with an empty tree.
+          if ! git fetch origin site-build:site-build 2>/dev/null; then
+            echo "site-build does not exist yet; creating it"
+            empty=$(git hash-object -t tree /dev/null)
+            git branch site-build "$(git commit-tree "$empty" -m 'init site-build')"
+          fi
+
+          git worktree add out site-build
+          # --exclude protects out/.git from --delete.
+          rsync -a --delete --exclude='.git' _site/ out/
+
+          cd out
+          git add -A
+          if git diff --cached --quiet; then
+            echo "Built output unchanged; nothing to publish."
+          else
+            git commit -q -m "Build site from ${GITHUB_SHA}"
+            git push origin site-build
+            echo "Published $(git rev-parse --short HEAD) to site-build."
+          fi
+
+      - name: Report
+        run: |
+          echo "webfiles pulls site-build within 10 minutes."
+          echo "Current live build-info.txt:"
+          curl -sS -m 20 https://machinelearning.aalto.fi/build-info.txt || true
