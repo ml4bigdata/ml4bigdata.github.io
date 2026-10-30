@@ -32,7 +32,7 @@ description: >-
   Email: [diana.pfau@aalto.fi](mailto:diana.pfau@aalto.fi)
 
 - **Xu Yang**  
-  _Thesis Topic: [To be updated]_  
+  Thesis Topic (tentative): Trustworthy Federated Learning  
   Email: [xu.1.yang@aalto.fi](mailto:xu.1.yang@aalto.fi)
 
 - [**Salma Rachidi**](/salma_rachidi/)  
@@ -40,7 +40,7 @@ description: >-
   Email: [salma.rachidi@aalto.fi](mailto:salma.rachidi@aalto.fi)
 
 - [**Mikko Seesto**](/mikko_seesto/)  
-  _Thesis Topic: [To be updated]_  
+  Thesis Topic (tentative): Trustworthy Federated Learning  
   Email: [mikko.seesto@aalto.fi](mailto:mikko.seesto@aalto.fi)
 
 - [**Vincent Marzillier**](/vincent_marzillier/)
@@ -48,7 +48,7 @@ description: >-
   Email: [vincent.marzillier@aalto.fi](mailto:vincent.marzillier@aalto.fi)
 
 - [**Salvatore Rastelli**](/salvatore_rastelli/) <br>
-  _Thesis Topic: [To be updated]_  
+  Thesis Topic (tentative): Trustworthy Federated Learning  
   Email: [salvatore.rastelli@aalto.fi](mailto:salvatore.rastelli@aalto.fi)
 
 - [**Aso Bozorgpanah**](/aso_bozorgpanah/) <br>  
@@ -70,5 +70,5 @@ description: >-
 ### Teaching Assistants
 
 - **Alexander Pavlyuk**
-  _Thesis Topic: [To be updated]_
+  Thesis Topic (tentative): Trustworthy Federated Learning
   Email: [alexander.pavlyuk@aalto.fi](mailto:alexander.pavlyuk@aalto.fi)
