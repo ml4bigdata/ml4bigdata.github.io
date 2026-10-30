@@ -13,6 +13,8 @@ permissions:
 jobs:
   update-meetups:
     runs-on: ubuntu-latest
+    outputs:
+      changed: ${{ steps.commit.outputs.changed }}
 
     steps:
       - name: Checkout repo
@@ -34,12 +36,23 @@ jobs:
           python scripts/update_meetups_from_ics.py
 
       - name: Commit and push changes
+        id: commit
         run: |
           if git diff --quiet; then
             echo "No changes to commit."
+            echo "changed=false" >> "$GITHUB_OUTPUT"
           else
             git config user.name "github-actions"
             git config user.email "github-actions@users.noreply.github.com"
             git commit -am "Update meetups page from Outlook calendar"
             git push
+            echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
+
+  # A push made with GITHUB_TOKEN does not trigger `on: push`, so the vhost
+  # deploy has to be invoked explicitly here.
+  deploy:
+    needs: update-meetups
+    if: needs.update-meetups.outputs.changed == 'true'
+    uses: ./.github/workflows/deploy-vhost.yml
+    secrets: inherit
