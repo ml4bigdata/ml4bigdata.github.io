@@ -69,6 +69,15 @@ jobs:
           CFG
           chmod 600 ~/.ssh/config
 
+      - name: Diagnose SSH auth (temporary)
+        run: |
+          echo "--- key as the runner sees it ---"
+          ssh-keygen -lf ~/.ssh/vhost_ci || echo "KEY FAILED TO LOAD"
+          echo "--- auth negotiation with kosh ---"
+          ssh -vv -o BatchMode=yes -o ConnectTimeout=20 kosh true 2>&1 \
+            | grep -E "Offering public key|Server accepts key|Authentications that can continue|Permission denied|Load key|invalid format" \
+            | head -20 || true
+
       - name: Deploy to vhost
         # The forced rrsync command roots the transfer at the vhost webroot,
         # so the destination path is "/". No -p: the remote umask (002) sets
