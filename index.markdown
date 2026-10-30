@@ -2,8 +2,14 @@
 layout: home
 ---
 
-Welcome to the **Aalto Machine Learning Research Group**, led by Professor Alexander Jung.  
-Our research focuses on **machine learning models that respect human agency, oversight, and fundamental rights**. We work on topics including **federated learning, explainable AI, and fairness in machine learning**.
+Welcome to the **Machine Learning for Big Data** research group at Aalto University,
+led by Associate Professor [Alexander Jung](https://alexjung.at/). We develop
+**trustworthy machine-learning methods for distributed and heterogeneous data**,
+with particular emphasis on federated learning, explainable AI, and fairness.
+
+Our work connects mathematical foundations with applications in healthcare,
+communications, and other settings where data cannot simply be centralised.
+Meet the [people in our group](/people/) or explore our [current research projects](/research/).
 
 ## 🏛️ Research Areas
 - Federated Learning and Privacy-Preserving AI

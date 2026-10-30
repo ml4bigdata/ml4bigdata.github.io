@@ -18,14 +18,15 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Machine Learning Research Group
-email: your-email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
+title: Machine Learning for Big Data
+email: alex.jung@aalto.fi
+description: >-
+  Aalto University research group working on trustworthy, federated, and
+  explainable machine learning.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://machinelearning.aalto.fi"
 repository: ml4bigdata/ml4bigdata.github.io
-twitter_username: jekyllrb
-github_username:  jekyll
+github_username: alexjungaalto
 
 # Build settings
 theme: jekyll-theme-cayman
